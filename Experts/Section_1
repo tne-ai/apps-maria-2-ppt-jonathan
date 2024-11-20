@@ -78,7 +78,7 @@ nodes:
       id: 6HRLbEep5aYPmBacd7A6H
       title: New Model
       input: ''
-      slashgptManifest: ''
+      slashgptManifest: Section_1.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -87,12 +87,33 @@ nodes:
       flowState: *ref_0
     width: 206
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 490.8811618885503
       'y': 299.6469235771044
     dragging: false
+  - id: l3axZJqi3_viZBeqtIKK_
+    type: out
+    position:
+      x: 496.33834084553916
+      'y': 828.9258534088946
+    data:
+      id: l3axZJqi3_viZBeqtIKK_
+      title: Save File
+      outputName: Section_1.txt
+    width: 193
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 496.33834084553916
+      'y': 828.9258534088946
+    dragging: false
 edges:
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: l3axZJqi3_viZBeqtIKK_
+    targetHandle: t
+    id: RGMu9H
   - source: W_y2BrbeKeueWAf30Syqn
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

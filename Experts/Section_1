@@ -1,0 +1,116 @@
+nodes:
+  - id: BIznahQrh3X5Hlp0ZXVRp
+    type: file
+    position:
+      x: 221.5262954839784
+      'y': -112.85600842264525
+    data:
+      id: BIznahQrh3X5Hlp0ZXVRp
+      title: Data
+      fileName: sec1_San Diego County_grp_data.csv
+      flowState: &ref_0
+        backend: git
+        repo: apps-maria-2
+    width: 193
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 221.5262954839784
+      'y': -112.85600842264525
+  - id: 1wAv6eoSFk1HVep3TqF92
+    type: file
+    position:
+      x: 418.005521568792
+      'y': -113.52710964465139
+    data:
+      id: 1wAv6eoSFk1HVep3TqF92
+      title: Data
+      fileName: sec1_San Diego County_per_capita_grp_data.csv
+      flowState: *ref_0
+    width: 193
+    height: 274
+    selected: false
+    positionAbsolute:
+      x: 418.005521568792
+      'y': -113.52710964465139
+    dragging: false
+  - id: 057rYnS3aw3cWeyNPKpUh
+    type: file
+    position:
+      x: 614.1901070074013
+      'y': -115.28661265306944
+    data:
+      id: 057rYnS3aw3cWeyNPKpUh
+      title: Data
+      fileName: sec1_San Diego_grp_data.csv
+      flowState: *ref_0
+    width: 193
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 614.1901070074013
+      'y': -115.28661265306944
+  - id: W_y2BrbeKeueWAf30Syqn
+    type: file
+    position:
+      x: 811.2544439502194
+      'y': -115.28661265306935
+    data:
+      id: W_y2BrbeKeueWAf30Syqn
+      title: Data
+      fileName: sec1_San Diego_per_capita_grp_data.csv
+      flowState: *ref_0
+    width: 193
+    height: 274
+    selected: false
+    positionAbsolute:
+      x: 811.2544439502194
+      'y': -115.28661265306935
+    dragging: false
+  - id: 6HRLbEep5aYPmBacd7A6H
+    type: llm
+    position:
+      x: 490.8811618885503
+      'y': 299.6469235771044
+    data:
+      id: 6HRLbEep5aYPmBacd7A6H
+      title: New Model
+      input: ''
+      slashgptManifest: ''
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 206
+    height: 466
+    selected: true
+    positionAbsolute:
+      x: 490.8811618885503
+      'y': 299.6469235771044
+    dragging: false
+edges:
+  - source: W_y2BrbeKeueWAf30Syqn
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: FAk-3C
+  - source: 057rYnS3aw3cWeyNPKpUh
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: N3Ujx4
+  - source: 1wAv6eoSFk1HVep3TqF92
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: AxRUkX
+  - source: BIznahQrh3X5Hlp0ZXVRp
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: 0jIem_
+description: null

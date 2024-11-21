@@ -8,7 +8,7 @@ max_tokens: 500
 database: ''
 stream: true
 prompt: |-
-  You are an economics expert versed in the analysis of Capital.
+  You are an economics expert versed in the analysis of Income and Housing.
   Use the supplied text requirements and perform analysis based on the provided .CSV data files.
   check math
   step by step

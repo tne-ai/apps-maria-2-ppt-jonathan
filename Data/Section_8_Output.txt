@@ -1,30 +1,36 @@
-Section 8: Industry Impact focuses on analyzing the economic impact of various industries in terms of mean earnings and jobs. This section provides insights into how different industries contribute to the economy of a specific area, in this case, San Diego and San Diego County. The analysis is based on data from Lightcast, which includes mean earnings and job statistics for various industries.
+Section 8 of the Economic Scan Report focuses on the Industry Impact, specifically analyzing Mean Earnings and Jobs. Let's break down the analysis based on the provided data files:
 
 ### Mean Earnings Analysis
 
-The mean earnings data is available at the city level for San Diego. The dataset `sec8_San Diego_mean_earn_data.csv` provides information on the average earnings per worker in different industries within San Diego. This data helps in understanding which industries offer higher wages and how they compare to each other.
+#### San Diego City Level
+- **Data Source**: `sec8-4_San Diego_mean_earn_data.csv`
+- **Key Insights**:
+  - The Utilities industry in San Diego has the highest mean earnings per worker at $211,444.85, with a significant growth rate of 140.15%.
+  - The Manufacturing industry also shows high mean earnings at $125,586.41, with a growth rate of 117.45%.
+  - The lowest mean earnings are in the Accommodation and Food Services industry at $38,447.40, despite a high growth rate of 101.79%.
+
+#### San Diego County Level
+- **Data Source**: `sec8-2_San Diego County_mean_earn_data.csv`
+- **Key Insights**:
+  - Similar to the city level, the Utilities industry leads with mean earnings of $206,768.83 and a growth rate of 136.78%.
+  - Manufacturing follows with mean earnings of $121,585.00 and a growth rate of 106.73%.
+  - The lowest earnings are in the Other Services industry at $36,448.58, with a growth rate of 58.65%.
 
 ### Jobs Analysis
 
-The jobs data is also available at the city level for San Diego. The dataset `sec8_San Diego_jobs_ind_data.csv` provides information on the number of jobs in different industries within San Diego. This data helps in understanding the employment distribution across various industries and identifying which sectors are the largest employers.
+#### San Diego City Level
+- **Data Source**: `sec8-3_San Diego_jobs_ind_data.csv`
+- **Key Insights**:
+  - The Government sector employs the most workers in San Diego, with 156,140 jobs.
+  - The Health Care and Social Assistance industry is also a major employer with 127,749 jobs.
+  - The Mining, Quarrying, and Oil and Gas Extraction industry has the fewest jobs at 268.
 
-### Analysis Steps
+#### San Diego County Level
+- **Data Source**: `sec8-1_San Diego County_jobs_ind_data.csv`
+- **Key Insights**:
+  - The Government sector is the largest employer in San Diego County with 340,217 jobs.
+  - Health Care and Social Assistance follows with 242,782 jobs.
+  - The Mining, Quarrying, and Oil and Gas Extraction industry remains the smallest employer with 486 jobs.
 
-1. **Mean Earnings Analysis:**
-   - Load the `sec8_San Diego_mean_earn_data.csv` file.
-   - Analyze the average earnings per worker for each industry.
-   - Identify industries with the highest and lowest mean earnings.
-   - Compare the growth rates of earnings across different industries.
-
-2. **Jobs Analysis:**
-   - Load the `sec8_San Diego_jobs_ind_data.csv` file.
-   - Analyze the number of jobs in each industry.
-   - Identify industries with the highest and lowest employment.
-   - Compare the distribution of jobs across different industries.
-
-3. **Comparison with San Diego County:**
-   - Load the `sec8_San Diego County_mean_earn_data.csv` and `sec8_San Diego County_jobs_ind_data.csv` files.
-   - Compare the mean earnings and job distribution in San Diego with those in San Diego County.
-   - Identify any significant differences or trends between the city and the county level.
-
-By following these steps, we can gain a comprehensive understanding of the industry impact in San Diego and how it compares to the broader San Diego County. This analysis will provide valuable insights into the economic landscape and help identify key industries driving growth and employment in the region.
+### Conclusion
+The Utilities and Manufacturing industries are significant in terms of mean earnings in both San Diego city and county levels. The Government and Health Care sectors are the largest employers, indicating their critical role in the local economy. The data suggests a strong growth trend in these industries, which could be a focus for future economic development strategies.

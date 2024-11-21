@@ -59,7 +59,7 @@ nodes:
       'y': 366.533778903244
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 2
+      title: Section 3
       input: ''
       slashgptManifest: Section_3.model
       toolJson: ''
@@ -86,7 +86,7 @@ nodes:
       outputName: Section_3_Output.txt
     width: 193
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
       x: 496.84602092532486
       'y': 913.213323141417

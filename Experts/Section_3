@@ -7,7 +7,7 @@ nodes:
     data:
       id: BIznahQrh3X5Hlp0ZXVRp
       title: Data
-      fileName: sec2_San Diego County_job_postings_data.csv
+      fileName: sec3_San Diego County_edattain_data.csv
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
@@ -26,7 +26,7 @@ nodes:
     data:
       id: 1wAv6eoSFk1HVep3TqF92
       title: Data
-      fileName: sec2_San Diego County_unemp_data.csv
+      fileName: sec3_San Diego County_skills_gap_data.csv
       flowState: *ref_0
     width: 193
     height: 274
@@ -43,7 +43,7 @@ nodes:
     data:
       id: 057rYnS3aw3cWeyNPKpUh
       title: Data
-      fileName: sec2_San Diego County_unemp_peers_data.csv
+      fileName: sec3_San Diego_edattain_data.csv
       flowState: *ref_0
     width: 193
     height: 274
@@ -52,33 +52,16 @@ nodes:
     positionAbsolute:
       x: 922.0420608411008
       'y': -87.60307106971253
-  - id: W_y2BrbeKeueWAf30Syqn
-    type: file
-    position:
-      x: 1127.705227867265
-      'y': -89.1171896530476
-    data:
-      id: W_y2BrbeKeueWAf30Syqn
-      title: Data
-      fileName: sec2_San Diego_job_postings_data.csv
-      flowState: *ref_0
-    width: 193
-    height: 274
-    selected: false
-    positionAbsolute:
-      x: 1127.705227867265
-      'y': -89.1171896530476
-    dragging: false
   - id: 6HRLbEep5aYPmBacd7A6H
     type: llm
     position:
-      x: 835.346028711649
-      'y': 350.533778903244
+      x: 505.34602871164896
+      'y': 366.533778903244
     data:
       id: 6HRLbEep5aYPmBacd7A6H
       title: Section 2
       input: ''
-      slashgptManifest: Section_2.model
+      slashgptManifest: Section_3.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -89,24 +72,24 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 835.346028711649
-      'y': 350.533778903244
+      x: 505.34602871164896
+      'y': 366.533778903244
     dragging: false
   - id: l3axZJqi3_viZBeqtIKK_
     type: out
     position:
-      x: 838.8460209253249
-      'y': 907.213323141417
+      x: 496.84602092532486
+      'y': 913.213323141417
     data:
       id: l3axZJqi3_viZBeqtIKK_
       title: Save File
-      outputName: Section_2_Output.txt
+      outputName: Section_3_Output.txt
     width: 193
     height: 190
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 838.8460209253249
-      'y': 907.213323141417
+      x: 496.84602092532486
+      'y': 913.213323141417
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -153,8 +136,8 @@ nodes:
       'y': -92.17835812272921
     data:
       id: ZLZEYryKwTxJu3gDO3JVD
-      title: Section 2 Prompt TXT
-      fileName: Section 2 Jobs.txt
+      title: Section 3 Prompt TXT
+      fileName: Section 3 Talent and Workforce.txt
       flowState:
         backend: git
         repo: apps-maria-2
@@ -178,78 +161,13 @@ nodes:
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 193
-    height: 250
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
       x: 316.7219574667562
       'y': -92.17835812272921
-  - id: U6q8B5-U8I0bxjUrY8S-O
-    type: file
-    position:
-      x: 1332.7232525730337
-      'y': -91.3335835806442
-    data:
-      id: U6q8B5-U8I0bxjUrY8S-O
-      title: Data
-      fileName: sec2_San Diego_unemp_data.csv
-      flowState: &ref_1
-        backend: git
-        repo: apps-maria-2
-        content:
-          name: Section_2
-          path: Experts/Section_2
-          sha: 4c503bb525980e32552ee27438115ac0d2df9b6d
-          size: 5307
-          url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_2?ref=main
-          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-          git_url: >-
-            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/4c503bb525980e32552ee27438115ac0d2df9b6d
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_2
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_2?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/4c503bb525980e32552ee27438115ac0d2df9b6d
-            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-    width: 193
-    height: 274
-    selected: false
-    positionAbsolute:
-      x: 1332.7232525730337
-      'y': -91.3335835806442
-    dragging: false
-  - id: inOdqthulCWyDKmJ2joPN
-    type: file
-    position:
-      x: 1544.8822955481696
-      'y': -95.24795706727032
-    data:
-      id: inOdqthulCWyDKmJ2joPN
-      title: Data
-      fileName: sec2_San Diego_unemp_peers_data.csv
-      flowState: *ref_1
-    width: 193
-    height: 274
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 1544.8822955481696
-      'y': -95.24795706727032
 edges:
-  - source: inOdqthulCWyDKmJ2joPN
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: h0asCD
-  - source: U6q8B5-U8I0bxjUrY8S-O
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: YN5JWr
   - source: ZLZEYryKwTxJu3gDO3JVD
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H
@@ -265,11 +183,6 @@ edges:
     target: l3axZJqi3_viZBeqtIKK_
     targetHandle: t
     id: RGMu9H
-  - source: W_y2BrbeKeueWAf30Syqn
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: FAk-3C
   - source: 057rYnS3aw3cWeyNPKpUh
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

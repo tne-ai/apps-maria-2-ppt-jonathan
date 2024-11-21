@@ -1,0 +1,67 @@
+Section 6 focuses on Business Activity, specifically analyzing the number of firms in San Diego County. The analysis is based on data from the US Census Bureau's 2022 Business Dynamics Statistics. Let's break down the data and perform the analysis step by step.
+
+### Data Overview
+
+We have several datasets related to business activity in San Diego County:
+
+1. **sec6-1_San Diego County_firms_data.csv**: This dataset provides detailed information on the number of firms, employment, population, and per capita firms for San Diego County, the state, and the nation from 2017 to 2022.
+
+2. **sec6-3_San Diego County_firms_yoy_data.csv**: This dataset provides the year-over-year number of firms for San Diego County for 2021 and 2022.
+
+3. **sec6-2_San Diego County_firms_percap_data.csv**: This dataset provides per capita firms data for San Diego County, the state, and the nation for 2021 and 2022.
+
+### Analysis
+
+#### 1. Year-over-Year Change in Number of Firms
+
+From the `sec6-3_San Diego County_firms_yoy_data.csv`:
+
+- **2021**: 65,178 firms
+- **2022**: 68,078 firms
+
+**Calculation**: 
+The year-over-year change in the number of firms is calculated as follows:
+
+\[
+\text{Change} = \frac{\text{Firms in 2022} - \text{Firms in 2021}}{\text{Firms in 2021}} \times 100
+\]
+
+\[
+\text{Change} = \frac{68,078 - 65,178}{65,178} \times 100 \approx 4.45\%
+\]
+
+This indicates a 4.45% increase in the number of firms from 2021 to 2022.
+
+#### 2. Per Capita Firms
+
+From the `sec6-2_San Diego County_firms_percap_data.csv`:
+
+- **2021**: 0.019901958928278077
+- **2022**: 0.020779510946801912
+
+**Calculation**:
+The change in per capita firms is calculated as follows:
+
+\[
+\text{Change in Per Capita Firms} = \frac{\text{Per Capita Firms in 2022} - \text{Per Capita Firms in 2021}}{\text{Per Capita Firms in 2021}} \times 100
+\]
+
+\[
+\text{Change} = \frac{0.020779510946801912 - 0.019901958928278077}{0.019901958928278077} \times 100 \approx 4.41\%
+\]
+
+This indicates a 4.41% increase in per capita firms from 2021 to 2022.
+
+#### 3. Comparison with State and National Averages
+
+From the `sec6-1_San Diego County_firms_data.csv` for 2022:
+
+- **San Diego County Per Capita Firms**: 0.020779510946801912
+- **State Per Capita Firms**: 0.0183975179083859
+- **National Per Capita Firms**: 0.01722720779521931
+
+San Diego County's per capita firms in 2022 are higher than both the state and national averages, indicating a relatively higher density of firms in the county compared to the broader state and national contexts.
+
+### Conclusion
+
+San Diego County experienced a notable increase in the number of firms and per capita firms from 2021 to 2022, with growth rates of approximately 4.45% and 4.41%, respectively. The county's per capita firms are also higher than the state and national averages, suggesting a robust business environment relative to other regions.

@@ -1,0 +1,27 @@
+The Capital section focuses on analyzing interest rates and inflation rates at the national level. The data provided in the `sec4_capital_data.csv` file includes monthly interest rates for 30-year, 10-year, and 1-year terms, as well as the inflation rate from November 2023 to October 2024.
+
+### Analysis of Interest Rates:
+
+1. **30-Year Interest Rate:**
+   - The 30-year interest rate started at 4.66% in November 2023 and fluctuated over the months, reaching 4.38% by October 2024.
+   - The highest rate during this period was 4.66% in November 2023 and April 2024, while the lowest was 4.04% in September 2024.
+
+2. **10-Year Interest Rate:**
+   - The 10-year interest rate began at 4.5% in November 2023 and decreased to 4.1% by October 2024.
+   - The highest rate was 4.54% in April 2024, and the lowest was 3.72% in September 2024.
+
+3. **1-Year Interest Rate:**
+   - The 1-year interest rate was 5.28% in November 2023 and decreased to 4.2% by October 2024.
+   - The highest rate was 5.28% in November 2023, and the lowest was 4.03% in September 2024.
+
+### Analysis of Inflation Rate:
+
+- The inflation rate started at 3.47% in November 2023 and decreased to 2.65% by September 2024.
+- The highest inflation rate was 3.47% in November 2023, and the lowest was 2.65% in September 2024.
+
+### Observations:
+
+- There is a general trend of decreasing interest rates across all terms from November 2023 to October 2024.
+- The inflation rate also shows a decreasing trend over the same period, indicating a potential easing of inflationary pressures.
+
+This analysis provides insights into the capital market conditions, which can influence economic decisions related to investments, savings, and borrowing. The visualization accompanying this analysis would likely depict the trends in interest rates and inflation over the specified period, providing a clear visual representation of the data.

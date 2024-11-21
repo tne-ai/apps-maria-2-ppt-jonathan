@@ -1,0 +1,30 @@
+Section 8: Industry Impact focuses on analyzing the economic impact of various industries in terms of mean earnings and jobs. This section provides insights into how different industries contribute to the economy of a specific area, in this case, San Diego and San Diego County. The analysis is based on data from Lightcast, which includes mean earnings and job statistics for various industries.
+
+### Mean Earnings Analysis
+
+The mean earnings data is available at the city level for San Diego. The dataset `sec8_San Diego_mean_earn_data.csv` provides information on the average earnings per worker in different industries within San Diego. This data helps in understanding which industries offer higher wages and how they compare to each other.
+
+### Jobs Analysis
+
+The jobs data is also available at the city level for San Diego. The dataset `sec8_San Diego_jobs_ind_data.csv` provides information on the number of jobs in different industries within San Diego. This data helps in understanding the employment distribution across various industries and identifying which sectors are the largest employers.
+
+### Analysis Steps
+
+1. **Mean Earnings Analysis:**
+   - Load the `sec8_San Diego_mean_earn_data.csv` file.
+   - Analyze the average earnings per worker for each industry.
+   - Identify industries with the highest and lowest mean earnings.
+   - Compare the growth rates of earnings across different industries.
+
+2. **Jobs Analysis:**
+   - Load the `sec8_San Diego_jobs_ind_data.csv` file.
+   - Analyze the number of jobs in each industry.
+   - Identify industries with the highest and lowest employment.
+   - Compare the distribution of jobs across different industries.
+
+3. **Comparison with San Diego County:**
+   - Load the `sec8_San Diego County_mean_earn_data.csv` and `sec8_San Diego County_jobs_ind_data.csv` files.
+   - Compare the mean earnings and job distribution in San Diego with those in San Diego County.
+   - Identify any significant differences or trends between the city and the county level.
+
+By following these steps, we can gain a comprehensive understanding of the industry impact in San Diego and how it compares to the broader San Diego County. This analysis will provide valuable insights into the economic landscape and help identify key industries driving growth and employment in the region.

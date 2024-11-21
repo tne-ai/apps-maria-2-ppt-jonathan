@@ -76,7 +76,7 @@ nodes:
       'y': 299.6469235771044
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: New Model
+      title: Section 1
       input: ''
       slashgptManifest: Section_1.model
       toolJson: ''
@@ -100,7 +100,7 @@ nodes:
     data:
       id: l3axZJqi3_viZBeqtIKK_
       title: Save File
-      outputName: Section_1.txt
+      outputName: Section_1_Output.txt
     width: 193
     height: 190
     selected: false
@@ -158,7 +158,7 @@ nodes:
       flowState: *ref_1
     width: 193
     height: 250
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 326.7219574667562

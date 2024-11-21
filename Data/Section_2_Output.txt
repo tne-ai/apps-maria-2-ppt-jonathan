@@ -1,0 +1,39 @@
+Section 2 of the Economic Scan Report focuses on Jobs, specifically analyzing unemployment and industry job postings. Here's a breakdown of the analysis based on the provided datasets:
+
+### Unemployment Analysis
+
+#### San Diego County Unemployment Data
+- **Dataset**: `sec2_San Diego_unemp_data.csv`
+- **Time Frame**: January 2023 to September 2024
+- **Key Observations**:
+  - The unemployment rate in San Diego County has shown fluctuations over the observed period.
+  - The highest unemployment rate recorded was in August 2024 at 5.05%.
+  - The lowest unemployment rate was in May 2024 at 3.65%.
+  - There is a general trend of increasing unemployment from May 2024 to August 2024, followed by a slight decrease in September 2024.
+
+#### Comparison with Peers
+- **Dataset**: `sec2_San Diego_unemp_peers_data.csv`
+- **Peer Counties**: Maricopa County, AZ; Miami-Dade County, FL; Wayne County, MI
+- **Key Observations**:
+  - San Diego County's unemployment rate in September 2024 (4.55%) is higher than Maricopa County (3.36%) and Miami-Dade County (2.05%) but lower than Wayne County (5.18%).
+  - Miami-Dade County consistently shows the lowest unemployment rates among the peers.
+  - Wayne County exhibits the highest unemployment rates, with a significant peak in July 2024 (8.23%).
+
+### Industry Job Postings Analysis
+
+#### San Diego Job Postings Data
+- **Dataset**: `sec2_San Diego_job_postings_data.csv`
+- **Key Observations**:
+  - The industry with the highest number of unique job postings is "Professional, Scientific, and Technical Services" with 32,556 postings.
+  - The "Finance and Insurance" industry experienced the largest percentage decrease in job postings (-40.6%).
+  - The "Agriculture, Forestry, Fishing and Hunting" industry had the smallest decrease in job postings (-6.55%).
+
+#### San Diego County Job Postings Data
+- **Dataset**: `sec2_San Diego County_job_postings_data.csv`
+- **Key Observations**:
+  - The "Health Care and Social Assistance" industry has the highest number of unique job postings at 52,862.
+  - The "Management of Companies and Enterprises" industry saw a significant decrease in job postings (-30.0%).
+  - Similar to the city data, the "Agriculture, Forestry, Fishing and Hunting" industry had the smallest decrease in job postings (-3.98%).
+
+### Conclusion
+San Diego County's unemployment rate is moderate compared to its peers, with a recent trend of increasing unemployment. The job postings data indicates a decline across most industries, with the "Professional, Scientific, and Technical Services" and "Health Care and Social Assistance" industries having the highest number of postings. The economic environment suggests challenges in job growth, particularly in the finance and management sectors.

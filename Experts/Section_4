@@ -7,61 +7,27 @@ nodes:
     data:
       id: BIznahQrh3X5Hlp0ZXVRp
       title: Data
-      fileName: sec3_San Diego County_edattain_data.csv
+      fileName: sec4_capital_data.csv
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
     width: 193
-    height: 274
+    height: 226
     selected: false
     dragging: false
     positionAbsolute:
       x: 518.8358935676725
       'y': -89.71482258929379
-  - id: 1wAv6eoSFk1HVep3TqF92
-    type: file
-    position:
-      x: 717.3151196524861
-      'y': -87.90004239463507
-    data:
-      id: 1wAv6eoSFk1HVep3TqF92
-      title: Data
-      fileName: sec3_San Diego County_skills_gap_data.csv
-      flowState: *ref_0
-    width: 193
-    height: 274
-    selected: false
-    positionAbsolute:
-      x: 717.3151196524861
-      'y': -87.90004239463507
-    dragging: false
-  - id: 057rYnS3aw3cWeyNPKpUh
-    type: file
-    position:
-      x: 922.0420608411008
-      'y': -87.60307106971253
-    data:
-      id: 057rYnS3aw3cWeyNPKpUh
-      title: Data
-      fileName: sec3_San Diego_edattain_data.csv
-      flowState: *ref_0
-    width: 193
-    height: 274
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 922.0420608411008
-      'y': -87.60307106971253
   - id: 6HRLbEep5aYPmBacd7A6H
     type: llm
     position:
-      x: 505.34602871164896
-      'y': 366.533778903244
+      x: 307.87131235502113
+      'y': 355.5629613278758
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 3
+      title: Section 4
       input: ''
-      slashgptManifest: Section_3.model
+      slashgptManifest: Section_4.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -72,24 +38,24 @@ nodes:
     height: 466
     selected: false
     positionAbsolute:
-      x: 505.34602871164896
-      'y': 366.533778903244
+      x: 307.87131235502113
+      'y': 355.5629613278758
     dragging: false
   - id: l3axZJqi3_viZBeqtIKK_
     type: out
     position:
-      x: 496.84602092532486
-      'y': 913.213323141417
+      x: 299.37130456869716
+      'y': 908.511544180545
     data:
       id: l3axZJqi3_viZBeqtIKK_
       title: Save File
-      outputName: Section_3_Output.txt
+      outputName: Section_4_Output.txt
     width: 193
     height: 190
     selected: false
     positionAbsolute:
-      x: 496.84602092532486
-      'y': 913.213323141417
+      x: 299.37130456869716
+      'y': 908.511544180545
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -136,8 +102,8 @@ nodes:
       'y': -92.17835812272921
     data:
       id: ZLZEYryKwTxJu3gDO3JVD
-      title: Section 3 Prompt TXT
-      fileName: Section 3 Talent and Workforce.txt
+      title: Section 4 Prompt TXT
+      fileName: Section 4 Capital.txt
       flowState:
         backend: git
         repo: apps-maria-2
@@ -161,7 +127,7 @@ nodes:
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 193
-    height: 274
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -183,16 +149,6 @@ edges:
     target: l3axZJqi3_viZBeqtIKK_
     targetHandle: t
     id: RGMu9H
-  - source: 057rYnS3aw3cWeyNPKpUh
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: N3Ujx4
-  - source: 1wAv6eoSFk1HVep3TqF92
-    sourceHandle: b
-    target: 6HRLbEep5aYPmBacd7A6H
-    targetHandle: t
-    id: AxRUkX
   - source: BIznahQrh3X5Hlp0ZXVRp
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

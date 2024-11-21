@@ -1,0 +1,157 @@
+nodes:
+  - id: BIznahQrh3X5Hlp0ZXVRp
+    type: file
+    position:
+      x: 517.5883636415205
+      'y': -90.96235251544593
+    data:
+      id: BIznahQrh3X5Hlp0ZXVRp
+      title: Data
+      fileName: sec6_San Diego County_firms_data.csv
+      flowState: &ref_0
+        backend: git
+        repo: apps-maria-2
+    width: 188
+    height: 273
+    selected: true
+    dragging: false
+    positionAbsolute:
+      x: 517.5883636415205
+      'y': -90.96235251544593
+  - id: 6HRLbEep5aYPmBacd7A6H
+    type: llm
+    position:
+      x: 307.87131235502113
+      'y': 355.5629613278758
+    data:
+      id: 6HRLbEep5aYPmBacd7A6H
+      title: Section 6
+      input: ''
+      slashgptManifest: Section_6.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 205
+    height: 465
+    selected: false
+    positionAbsolute:
+      x: 307.87131235502113
+      'y': 355.5629613278758
+    dragging: false
+  - id: l3axZJqi3_viZBeqtIKK_
+    type: out
+    position:
+      x: 299.37130456869716
+      'y': 908.511544180545
+    data:
+      id: l3axZJqi3_viZBeqtIKK_
+      title: Save File
+      outputName: Section_6_Output.txt
+    width: 188
+    height: 189
+    selected: false
+    positionAbsolute:
+      x: 299.37130456869716
+      'y': 908.511544180545
+    dragging: false
+  - id: 31gU9a3-n1Fb95LvHCP3-
+    type: file
+    position:
+      x: 98.38297958332475
+      'y': -82.83549256614184
+    data:
+      id: 31gU9a3-n1Fb95LvHCP3-
+      title: Overall Prompt TXT
+      fileName: Economic Scan Overview.txt
+      flowState:
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_1
+          path: Experts/Section_1
+          sha: 8f37c98d78ab5c8264275bfdded46c937299095f
+          size: 3203
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_1
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+    width: 188
+    height: 249
+    selected: false
+    positionAbsolute:
+      x: 98.38297958332475
+      'y': -82.83549256614184
+    dragging: false
+  - id: ZLZEYryKwTxJu3gDO3JVD
+    type: file
+    position:
+      x: 316.7219574667562
+      'y': -92.17835812272921
+    data:
+      id: ZLZEYryKwTxJu3gDO3JVD
+      title: Section 6 Prompt TXT
+      fileName: Section 6 Business Activity.txt
+      flowState:
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_1
+          path: Experts/Section_1
+          sha: 8f37c98d78ab5c8264275bfdded46c937299095f
+          size: 3203
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_1
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+    width: 188
+    height: 273
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 316.7219574667562
+      'y': -92.17835812272921
+edges:
+  - source: ZLZEYryKwTxJu3gDO3JVD
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: 4uMDOy
+  - source: 31gU9a3-n1Fb95LvHCP3-
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: r50ZnG
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: l3axZJqi3_viZBeqtIKK_
+    targetHandle: t
+    id: RGMu9H
+  - source: BIznahQrh3X5Hlp0ZXVRp
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: 0jIem_
+description: null

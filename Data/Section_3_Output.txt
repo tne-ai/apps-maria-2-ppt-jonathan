@@ -1,0 +1,43 @@
+Section 3 of the Economic Scan Report focuses on Talent and Workforce, specifically examining Education and Skills Gap. Let's break down the analysis for each subsection using the provided datasets.
+
+### Education
+
+#### Analysis of Educational Attainment in San Diego County
+
+1. **Data Overview**:
+   - The dataset `sec3_San Diego County_edattain_data.csv` provides educational attainment data for San Diego County from 2019 to 2023.
+   - The data includes various education levels: Less Than 9th Grade, 9th Grade to 12th Grade, High School Diploma, Some College, Associate's Degree, Bachelor's Degree, and Graduate Degree and Higher.
+
+2. **Trends and Observations**:
+   - **Less Than 9th Grade**: The population ratio decreased from 6.75% in 2019 to 6.14% in 2023, indicating a decline in the population with less than a 9th-grade education.
+   - **9th Grade to 12th Grade**: The population ratio decreased from 6.11% in 2019 to 5.27% in 2023, showing a reduction in individuals with some high school education but no diploma.
+   - **High School Diploma**: The population ratio remained relatively stable, with a slight decrease from 18.35% in 2019 to 18.34% in 2023.
+   - **Some College**: The population ratio decreased from 22.29% in 2019 to 20.80% in 2023, indicating fewer individuals with some college education but no degree.
+   - **Associate's Degree**: The population ratio increased slightly from 8.08% in 2019 to 8.33% in 2023.
+   - **Bachelor's Degree**: The population ratio increased from 23.52% in 2019 to 24.96% in 2023, showing a growth in the population with a bachelor's degree.
+   - **Graduate Degree and Higher**: The population ratio increased from 14.90% in 2019 to 16.15% in 2023, indicating a rise in individuals with graduate degrees.
+
+3. **Implications**:
+   - The increase in higher education attainment (Bachelor's and Graduate degrees) suggests a more educated workforce in San Diego County, which could attract industries requiring specialized skills.
+   - The decrease in lower education levels (Less Than 9th Grade and 9th Grade to 12th Grade) indicates progress in educational attainment, potentially reducing low-skilled labor availability.
+
+### Skills Gap
+
+#### Analysis of Skills Gap in San Diego County
+
+1. **Data Overview**:
+   - The dataset `sec3_San Diego County_skills_gap_data.csv` provides information on the skills gap for various occupations in San Diego County, including job openings, regional completions, and the calculated skills gap.
+
+2. **Key Occupations with Skills Gap**:
+   - **Compensation and Benefits Managers**: A significant skills gap of 7,402, with 539 job openings and 7,941 regional completions.
+   - **Training and Development Managers**: A skills gap of 5,279, with 3,385 job openings and 8,664 regional completions.
+   - **Compensation, Benefits, and Job Analysis Specialists**: A skills gap of 5,008, with 3,280 job openings and 8,288 regional completions.
+   - **Entertainment and Recreation Managers, Except Gambling**: A skills gap of 4,531, with 2,985 job openings and 7,516 regional completions.
+
+3. **Implications**:
+   - The significant skills gaps in managerial and specialist roles suggest a need for targeted educational programs and training to bridge these gaps.
+   - Addressing these gaps could enhance the region's ability to meet industry demands and improve economic growth.
+
+### Conclusion
+
+San Diego County shows positive trends in educational attainment, with an increase in higher education levels. However, there are notable skills gaps in specific occupations, particularly in managerial and specialist roles. Addressing these gaps through education and training initiatives could strengthen the workforce and support economic development in the region.

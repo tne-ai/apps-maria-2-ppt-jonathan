@@ -1,0 +1,310 @@
+nodes:
+  - id: BIznahQrh3X5Hlp0ZXVRp
+    type: file
+    position:
+      x: 517.5883636415205
+      'y': -90.96235251544593
+    data:
+      id: BIznahQrh3X5Hlp0ZXVRp
+      title: Data
+      fileName: sec7-1_San Diego County_pri_sec_data.csv
+      flowState:
+        backend: git
+        repo: apps-maria-2
+    width: 188
+    height: 273
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 517.5883636415205
+      'y': -90.96235251544593
+  - id: 6HRLbEep5aYPmBacd7A6H
+    type: llm
+    position:
+      x: 377.4596971070249
+      'y': 337.0176975829601
+    data:
+      id: 6HRLbEep5aYPmBacd7A6H
+      title: Section 7
+      input: ''
+      slashgptManifest: Section_7.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: apps-maria-2
+    width: 205
+    height: 465
+    selected: false
+    positionAbsolute:
+      x: 377.4596971070249
+      'y': 337.0176975829601
+    dragging: false
+  - id: l3axZJqi3_viZBeqtIKK_
+    type: out
+    position:
+      x: 363.9272320895233
+      'y': 939.8427409493377
+    data:
+      id: l3axZJqi3_viZBeqtIKK_
+      title: Save File
+      outputName: Section_7_Output.txt
+    width: 188
+    height: 189
+    selected: false
+    positionAbsolute:
+      x: 363.9272320895233
+      'y': 939.8427409493377
+    dragging: false
+  - id: 31gU9a3-n1Fb95LvHCP3-
+    type: file
+    position:
+      x: 98.38297958332475
+      'y': -82.83549256614184
+    data:
+      id: 31gU9a3-n1Fb95LvHCP3-
+      title: Overall Prompt TXT
+      fileName: Economic Scan Overview.txt
+      flowState:
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_1
+          path: Experts/Section_1
+          sha: 8f37c98d78ab5c8264275bfdded46c937299095f
+          size: 3203
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_1
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+    width: 188
+    height: 249
+    selected: false
+    positionAbsolute:
+      x: 98.38297958332475
+      'y': -82.83549256614184
+    dragging: false
+  - id: ZLZEYryKwTxJu3gDO3JVD
+    type: file
+    position:
+      x: 316.7219574667562
+      'y': -92.17835812272921
+    data:
+      id: ZLZEYryKwTxJu3gDO3JVD
+      title: Section 7 Prompt TXT
+      fileName: Section 7 Industry Clusters.txt
+      flowState:
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_1
+          path: Experts/Section_1
+          sha: 8f37c98d78ab5c8264275bfdded46c937299095f
+          size: 3203
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_1
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_1?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
+    width: 188
+    height: 273
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 316.7219574667562
+      'y': -92.17835812272921
+  - id: z7oIXm2EehNiwtwueFl_f
+    type: file
+    position:
+      x: 736.8782426300461
+      'y': -91.365560783342
+    data:
+      id: z7oIXm2EehNiwtwueFl_f
+      title: Data
+      fileName: sec7-2_San Diego_pri_sec_data.csv
+      flowState:
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_6
+          path: Experts/Section_6
+          sha: 794e70712c13d1a5b54404d460bf50b25e647913
+          size: 4742
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_6?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_6
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/794e70712c13d1a5b54404d460bf50b25e647913
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_6
+          type: file
+          content: |
+            bm9kZXM6CiAgLSBpZDogQkl6bmFoUXJoM1g1SGxwMFpYVlJwCiAgICB0eXBl
+            OiBmaWxlCiAgICBwb3NpdGlvbjoKICAgICAgeDogNTE3LjU4ODM2MzY0MTUy
+            MDUKICAgICAgJ3knOiAtOTAuOTYyMzUyNTE1NDQ1OTMKICAgIGRhdGE6CiAg
+            ICAgIGlkOiBCSXpuYWhRcmgzWDVIbHAwWlhWUnAKICAgICAgdGl0bGU6IERh
+            dGEKICAgICAgZmlsZU5hbWU6IHNlYzZfU2FuIERpZWdvIENvdW50eV9maXJt
+            c19kYXRhLmNzdgogICAgICBmbG93U3RhdGU6ICZyZWZfMAogICAgICAgIGJh
+            Y2tlbmQ6IGdpdAogICAgICAgIHJlcG86IGFwcHMtbWFyaWEtMgogICAgd2lk
+            dGg6IDE4OAogICAgaGVpZ2h0OiAyNzMKICAgIHNlbGVjdGVkOiB0cnVlCiAg
+            ICBkcmFnZ2luZzogZmFsc2UKICAgIHBvc2l0aW9uQWJzb2x1dGU6CiAgICAg
+            IHg6IDUxNy41ODgzNjM2NDE1MjA1CiAgICAgICd5JzogLTkwLjk2MjM1MjUx
+            NTQ0NTkzCiAgLSBpZDogNkhSTGJFZXA1YVlQbUJhY2Q3QTZICiAgICB0eXBl
+            OiBsbG0KICAgIHBvc2l0aW9uOgogICAgICB4OiAzMDcuODcxMzEyMzU1MDIx
+            MTMKICAgICAgJ3knOiAzNTUuNTYyOTYxMzI3ODc1OAogICAgZGF0YToKICAg
+            ICAgaWQ6IDZIUkxiRWVwNWFZUG1CYWNkN0E2SAogICAgICB0aXRsZTogU2Vj
+            dGlvbiA2CiAgICAgIGlucHV0OiAnJwogICAgICBzbGFzaGdwdE1hbmlmZXN0
+            OiBTZWN0aW9uXzYubW9kZWwKICAgICAgdG9vbEpzb246ICcnCiAgICAgIHRv
+            b2xDb2RlOiAnJwogICAgICBvdXRwdXRUeXBlOiBvdmVyd3JpdGUKICAgICAg
+            b3V0cHV0VG9DYW52YXM6IGZhbHNlCiAgICAgIHVzZVVzZXJRdWVyeTogZmFs
+            c2UKICAgICAgZmxvd1N0YXRlOiAqcmVmXzAKICAgIHdpZHRoOiAyMDUKICAg
+            IGhlaWdodDogNDY1CiAgICBzZWxlY3RlZDogZmFsc2UKICAgIHBvc2l0aW9u
+            QWJzb2x1dGU6CiAgICAgIHg6IDMwNy44NzEzMTIzNTUwMjExMwogICAgICAn
+            eSc6IDM1NS41NjI5NjEzMjc4NzU4CiAgICBkcmFnZ2luZzogZmFsc2UKICAt
+            IGlkOiBsM2F4WkpxaTNfdmlaQmVxdElLS18KICAgIHR5cGU6IG91dAogICAg
+            cG9zaXRpb246CiAgICAgIHg6IDI5OS4zNzEzMDQ1Njg2OTcxNgogICAgICAn
+            eSc6IDkwOC41MTE1NDQxODA1NDUKICAgIGRhdGE6CiAgICAgIGlkOiBsM2F4
+            WkpxaTNfdmlaQmVxdElLS18KICAgICAgdGl0bGU6IFNhdmUgRmlsZQogICAg
+            ICBvdXRwdXROYW1lOiBTZWN0aW9uXzZfT3V0cHV0LnR4dAogICAgd2lkdGg6
+            IDE4OAogICAgaGVpZ2h0OiAxODkKICAgIHNlbGVjdGVkOiBmYWxzZQogICAg
+            cG9zaXRpb25BYnNvbHV0ZToKICAgICAgeDogMjk5LjM3MTMwNDU2ODY5NzE2
+            CiAgICAgICd5JzogOTA4LjUxMTU0NDE4MDU0NQogICAgZHJhZ2dpbmc6IGZh
+            bHNlCiAgLSBpZDogMzFnVTlhMy1uMUZiOTVMdkhDUDMtCiAgICB0eXBlOiBm
+            aWxlCiAgICBwb3NpdGlvbjoKICAgICAgeDogOTguMzgyOTc5NTgzMzI0NzUK
+            ICAgICAgJ3knOiAtODIuODM1NDkyNTY2MTQxODQKICAgIGRhdGE6CiAgICAg
+            IGlkOiAzMWdVOWEzLW4xRmI5NUx2SENQMy0KICAgICAgdGl0bGU6IE92ZXJh
+            bGwgUHJvbXB0IFRYVAogICAgICBmaWxlTmFtZTogRWNvbm9taWMgU2NhbiBP
+            dmVydmlldy50eHQKICAgICAgZmxvd1N0YXRlOgogICAgICAgIGJhY2tlbmQ6
+            IGdpdAogICAgICAgIHJlcG86IGFwcHMtbWFyaWEtMgogICAgICAgIGNvbnRl
+            bnQ6CiAgICAgICAgICBuYW1lOiBTZWN0aW9uXzEKICAgICAgICAgIHBhdGg6
+            IEV4cGVydHMvU2VjdGlvbl8xCiAgICAgICAgICBzaGE6IDhmMzdjOThkNzhh
+            YjVjODI2NDI3NWJmZGRlZDQ2YzkzNzI5OTA5NWYKICAgICAgICAgIHNpemU6
+            IDMyMDMKICAgICAgICAgIHVybDogPi0KICAgICAgICAgICAgaHR0cHM6Ly9h
+            cGkuZ2l0aHViLmNvbS9yZXBvcy90bmUtYWkvYXBwcy1tYXJpYS0yL2NvbnRl
+            bnRzL0V4cGVydHMvU2VjdGlvbl8xP3JlZj1tYWluCiAgICAgICAgICBodG1s
+            X3VybDogaHR0cHM6Ly9naXRodWIuY29tL3RuZS1haS9hcHBzLW1hcmlhLTIv
+            YmxvYi9tYWluL0V4cGVydHMvU2VjdGlvbl8xCiAgICAgICAgICBnaXRfdXJs
+            OiA+LQogICAgICAgICAgICBodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9z
+            L3RuZS1haS9hcHBzLW1hcmlhLTIvZ2l0L2Jsb2JzLzhmMzdjOThkNzhhYjVj
+            ODI2NDI3NWJmZGRlZDQ2YzkzNzI5OTA5NWYKICAgICAgICAgIGRvd25sb2Fk
+            X3VybDogPi0KICAgICAgICAgICAgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNv
+            bnRlbnQuY29tL3RuZS1haS9hcHBzLW1hcmlhLTIvbWFpbi9FeHBlcnRzL1Nl
+            Y3Rpb25fMQogICAgICAgICAgdHlwZTogZmlsZQogICAgICAgICAgX2xpbmtz
+            OgogICAgICAgICAgICBzZWxmOiA+LQogICAgICAgICAgICAgIGh0dHBzOi8v
+            YXBpLmdpdGh1Yi5jb20vcmVwb3MvdG5lLWFpL2FwcHMtbWFyaWEtMi9jb250
+            ZW50cy9FeHBlcnRzL1NlY3Rpb25fMT9yZWY9bWFpbgogICAgICAgICAgICBn
+            aXQ6ID4tCiAgICAgICAgICAgICAgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9y
+            ZXBvcy90bmUtYWkvYXBwcy1tYXJpYS0yL2dpdC9ibG9icy84ZjM3Yzk4ZDc4
+            YWI1YzgyNjQyNzViZmRkZWQ0NmM5MzcyOTkwOTVmCiAgICAgICAgICAgIGh0
+            bWw6IGh0dHBzOi8vZ2l0aHViLmNvbS90bmUtYWkvYXBwcy1tYXJpYS0yL2Js
+            b2IvbWFpbi9FeHBlcnRzL1NlY3Rpb25fMQogICAgd2lkdGg6IDE4OAogICAg
+            aGVpZ2h0OiAyNDkKICAgIHNlbGVjdGVkOiBmYWxzZQogICAgcG9zaXRpb25B
+            YnNvbHV0ZToKICAgICAgeDogOTguMzgyOTc5NTgzMzI0NzUKICAgICAgJ3kn
+            OiAtODIuODM1NDkyNTY2MTQxODQKICAgIGRyYWdnaW5nOiBmYWxzZQogIC0g
+            aWQ6IFpMWkVZcnlLd1R4SnUzZ0RPM0pWRAogICAgdHlwZTogZmlsZQogICAg
+            cG9zaXRpb246CiAgICAgIHg6IDMxNi43MjE5NTc0NjY3NTYyCiAgICAgICd5
+            JzogLTkyLjE3ODM1ODEyMjcyOTIxCiAgICBkYXRhOgogICAgICBpZDogWkxa
+            RVlyeUt3VHhKdTNnRE8zSlZECiAgICAgIHRpdGxlOiBTZWN0aW9uIDYgUHJv
+            bXB0IFRYVAogICAgICBmaWxlTmFtZTogU2VjdGlvbiA2IEJ1c2luZXNzIEFj
+            dGl2aXR5LnR4dAogICAgICBmbG93U3RhdGU6CiAgICAgICAgYmFja2VuZDog
+            Z2l0CiAgICAgICAgcmVwbzogYXBwcy1tYXJpYS0yCiAgICAgICAgY29udGVu
+            dDoKICAgICAgICAgIG5hbWU6IFNlY3Rpb25fMQogICAgICAgICAgcGF0aDog
+            RXhwZXJ0cy9TZWN0aW9uXzEKICAgICAgICAgIHNoYTogOGYzN2M5OGQ3OGFi
+            NWM4MjY0Mjc1YmZkZGVkNDZjOTM3Mjk5MDk1ZgogICAgICAgICAgc2l6ZTog
+            MzIwMwogICAgICAgICAgdXJsOiA+LQogICAgICAgICAgICBodHRwczovL2Fw
+            aS5naXRodWIuY29tL3JlcG9zL3RuZS1haS9hcHBzLW1hcmlhLTIvY29udGVu
+            dHMvRXhwZXJ0cy9TZWN0aW9uXzE/cmVmPW1haW4KICAgICAgICAgIGh0bWxf
+            dXJsOiBodHRwczovL2dpdGh1Yi5jb20vdG5lLWFpL2FwcHMtbWFyaWEtMi9i
+            bG9iL21haW4vRXhwZXJ0cy9TZWN0aW9uXzEKICAgICAgICAgIGdpdF91cmw6
+            ID4tCiAgICAgICAgICAgIGh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mv
+            dG5lLWFpL2FwcHMtbWFyaWEtMi9naXQvYmxvYnMvOGYzN2M5OGQ3OGFiNWM4
+            MjY0Mjc1YmZkZGVkNDZjOTM3Mjk5MDk1ZgogICAgICAgICAgZG93bmxvYWRf
+            dXJsOiA+LQogICAgICAgICAgICBodHRwczovL3Jhdy5naXRodWJ1c2VyY29u
+            dGVudC5jb20vdG5lLWFpL2FwcHMtbWFyaWEtMi9tYWluL0V4cGVydHMvU2Vj
+            dGlvbl8xCiAgICAgICAgICB0eXBlOiBmaWxlCiAgICAgICAgICBfbGlua3M6
+            CiAgICAgICAgICAgIHNlbGY6ID4tCiAgICAgICAgICAgICAgaHR0cHM6Ly9h
+            cGkuZ2l0aHViLmNvbS9yZXBvcy90bmUtYWkvYXBwcy1tYXJpYS0yL2NvbnRl
+            bnRzL0V4cGVydHMvU2VjdGlvbl8xP3JlZj1tYWluCiAgICAgICAgICAgIGdp
+            dDogPi0KICAgICAgICAgICAgICBodHRwczovL2FwaS5naXRodWIuY29tL3Jl
+            cG9zL3RuZS1haS9hcHBzLW1hcmlhLTIvZ2l0L2Jsb2JzLzhmMzdjOThkNzhh
+            YjVjODI2NDI3NWJmZGRlZDQ2YzkzNzI5OTA5NWYKICAgICAgICAgICAgaHRt
+            bDogaHR0cHM6Ly9naXRodWIuY29tL3RuZS1haS9hcHBzLW1hcmlhLTIvYmxv
+            Yi9tYWluL0V4cGVydHMvU2VjdGlvbl8xCiAgICB3aWR0aDogMTg4CiAgICBo
+            ZWlnaHQ6IDI3MwogICAgc2VsZWN0ZWQ6IGZhbHNlCiAgICBkcmFnZ2luZzog
+            ZmFsc2UKICAgIHBvc2l0aW9uQWJzb2x1dGU6CiAgICAgIHg6IDMxNi43MjE5
+            NTc0NjY3NTYyCiAgICAgICd5JzogLTkyLjE3ODM1ODEyMjcyOTIxCmVkZ2Vz
+            OgogIC0gc291cmNlOiBaTFpFWXJ5S3dUeEp1M2dETzNKVkQKICAgIHNvdXJj
+            ZUhhbmRsZTogYgogICAgdGFyZ2V0OiA2SFJMYkVlcDVhWVBtQmFjZDdBNkgK
+            ICAgIHRhcmdldEhhbmRsZTogdAogICAgaWQ6IDR1TURPeQogIC0gc291cmNl
+            OiAzMWdVOWEzLW4xRmI5NUx2SENQMy0KICAgIHNvdXJjZUhhbmRsZTogYgog
+            ICAgdGFyZ2V0OiA2SFJMYkVlcDVhWVBtQmFjZDdBNkgKICAgIHRhcmdldEhh
+            bmRsZTogdAogICAgaWQ6IHI1MFpuRwogIC0gc291cmNlOiA2SFJMYkVlcDVh
+            WVBtQmFjZDdBNkgKICAgIHNvdXJjZUhhbmRsZTogYgogICAgdGFyZ2V0OiBs
+            M2F4WkpxaTNfdmlaQmVxdElLS18KICAgIHRhcmdldEhhbmRsZTogdAogICAg
+            aWQ6IFJHTXU5SAogIC0gc291cmNlOiBCSXpuYWhRcmgzWDVIbHAwWlhWUnAK
+            ICAgIHNvdXJjZUhhbmRsZTogYgogICAgdGFyZ2V0OiA2SFJMYkVlcDVhWVBt
+            QmFjZDdBNkgKICAgIHRhcmdldEhhbmRsZTogdAogICAgaWQ6IDBqSWVtXwpk
+            ZXNjcmlwdGlvbjogbnVsbAo=
+          encoding: base64
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_6?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/794e70712c13d1a5b54404d460bf50b25e647913
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_6
+    width: 188
+    height: 273
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 736.8782426300461
+      'y': -91.365560783342
+edges:
+  - source: z7oIXm2EehNiwtwueFl_f
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: bER7Xv
+  - source: ZLZEYryKwTxJu3gDO3JVD
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: 4uMDOy
+  - source: 31gU9a3-n1Fb95LvHCP3-
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: r50ZnG
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: b
+    target: l3axZJqi3_viZBeqtIKK_
+    targetHandle: t
+    id: RGMu9H
+  - source: BIznahQrh3X5Hlp0ZXVRp
+    sourceHandle: b
+    target: 6HRLbEep5aYPmBacd7A6H
+    targetHandle: t
+    id: 0jIem_
+description: null

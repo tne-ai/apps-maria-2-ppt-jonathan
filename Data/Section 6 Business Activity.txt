@@ -1,0 +1,21 @@
+Section 6: Business Activity
+
+The Business Activity section produces 1 AI response and 2 visualizations. 
+
+Business activity (firms) data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt: sec6_San Diego_firms_data.csv
+For visualization 1: sec6_San Diego_firms_yoy_data.csv
+For visualization 2: sec6_San Diego_firms_percap_data.csv
+
+
+San Diego County:
+For AI prompt: sec6_San Diego County_firms_data.csv
+For visualization 1: sec6_San Diego County_firms_yoy_data.csv
+For visualization 2: sec6_San Diego County_firms_percap_data.csv
+
+
+Source: US Census Bureau, 2022 Business Dynamics Statistics <MMM YYYY>

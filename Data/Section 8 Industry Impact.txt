@@ -1,0 +1,33 @@
+Section 8: Industry Impact
+
+Mean Earnings
+
+The Industry Impact: Mean Earnings section produces 1 AI response and 1 visualization. 
+
+Mean earnings data is available at the city level.
+
+
+San Diego:
+For AI prompt and visualization: sec8_San Diego_mean_earn_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec8_San Diego County_mean_earn_data.csv
+
+Source: Lightcast <MMM YYYY>
+
+
+Jobs
+
+The Industry Impact: Jobs section produces 1 AI response and 1 visualization. 
+
+Mean earnings data is available at the city level.
+
+
+San Diego:
+For AI prompt and visualization: sec8_San Diego_jobs_ind_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec8_San Diego County_jobs_ind_data.csv
+
+
+Source: Lightcast <MMM YYYY>

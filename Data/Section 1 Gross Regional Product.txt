@@ -1,0 +1,18 @@
+Section 1: Gross Regional Product
+
+The Gross Regional Product section produces one AI response and 1 visualization.
+
+Gross regional product data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt: sec1_San Diego_grp_data.csv
+	For visualization: sec1_San Diego_per_capita_grp_data.csv
+
+
+San Diego County:
+For AI prompt: sec1_San Diego County_grp_data.csv
+	For visualization: sec1_San Diego County_per_capita_grp_data.csv
+
+Source: Lightcast <MMM YYYY>

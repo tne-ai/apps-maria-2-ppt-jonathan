@@ -1,0 +1,69 @@
+Section 5: Income and Housing
+
+Median Household Income
+
+The Income and Housing: Median Household Income section produces 1 AI response and 2 visualizations. 
+
+Median household income data is available at the city level.
+
+Datasets:
+	
+San Diego:
+For AI prompt: All data
+For visualization 1: sec5_San Diego_household_inc_data.csv
+For visualization 2: sec5_San Diego_household_inc_peers_data.csv
+
+
+San Diego County:
+For AI prompt: All data
+For visualization 1: sec5_San Diego County_household_inc_data.csv
+For visualization 2: sec5_San Diego County_household_inc_peers_data.csv
+
+
+Source: US Census Bureau ACS <MMM YYYY>
+
+
+
+Median Home Price
+
+The Income and Housing: Median Home Price section produces 1 AI response and 2 visualizations. 
+
+Median home price data is available at the city level.
+
+Datasets:
+	
+San Diego:
+For AI prompt: All data
+For visualization 1: sec5_San Diego_home_price_data.csv
+For visualization 2: sec5_San Diego_home_price_peers_data.csv
+
+
+San Diego County:
+For AI prompt: All data
+For visualization 1: sec5_San Diego County_home_price_data.csv
+For visualization 2: sec5_San Diego County_home_price_peers_data.csv
+Source: US Census Bureau ACS <MMM YYYY>
+
+
+
+
+Housing Starts
+
+The Income and Housing: Housing Starts section produces 1 AI response and 2 visualizations. 
+
+Housing starts data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt: All data
+For visualization 1: sec5_San Diego_housing_starts_data.csv
+For visualization 2: sec5_San Diego_housing_starts_peers_data.csv
+
+
+San Diego County:
+For AI prompt: All data
+For visualization 1: sec5_San Diego County_housing_starts_data.csv
+For visualization 2: sec5_San Diego County_housing_starts_peers_data.csv
+
+Source: US Census Bureau ACS <MMM YYYY>

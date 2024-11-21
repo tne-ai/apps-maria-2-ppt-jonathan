@@ -1,0 +1,275 @@
+Economic Scan Overview
+
+This document is intended to assist in development of an MIQ-TNE prototype of the Economic Scan Report.
+
+
+Breakdown and Anatomy of the Economic Scan Report
+
+This section addresses each section of the report, including datasets powering each visualization and associated prompts and inputs.  When a dataset compares the target jurisdiction to the state and national data, the state data will be assigned an area id of ‘06’.  National data will be assigned an area id of ‘000’.
+
+Datasets that compare the target jurisdiction to its peers will have an additional column ‘area_name’ that will easily identify the jurisdiction names.
+
+Section 1: Gross Regional Product
+
+The Gross Regional Product section produces one AI response and 1 visualization.
+
+Gross regional product data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt: sec1_San Diego_grp_data.csv
+	For visualization: sec1_San Diego_per_capita_grp_data.csv
+
+
+San Diego County:
+For AI prompt: sec1_San Diego County_grp_data.csv
+	For visualization: sec1_San Diego County_per_capita_grp_data.csv
+
+Source: Lightcast <MMM YYYY>
+
+
+
+Section 2: Jobs
+
+Unemployment
+
+The Jobs: Unemployment section produces 1 AI response and 2 visualizations. 
+
+Unemployment data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt and visualization 1: sec2_San Diego_unemp_data.csv
+For visualization 2: sec2_San Diego_unemp_peers_data.csv
+
+
+San Diego County:
+For AI prompt and visualization 1: sec2_San Diego County_unemp_data.csv
+For visualization 2: sec2_San Diego County_unemp_peers_data.csv
+Source: Lightcast <MMM YYYY>
+
+
+
+Industry Job Postings
+
+The Jobs: Industry Job Postings section produces 1 AI response and 1 visualization. 
+
+Job postings data is available at the city level.
+
+Datasets:
+	
+San Diego:
+For AI prompt and visualization: sec2_San Diego_job_postings_data.csv
+
+
+San Diego County:
+For AI prompt and visualization: sec2_San Diego County_job_postings_data.csv
+
+
+Source: Lightcast <MMM YYYY>
+
+
+Section 3: Talent and Workforce
+
+Education
+
+The Talent and Workforce: Education section produces 1 AI response and 1 visualization. 
+
+Educational attainment data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt and visualization: sec3_San Diego_edattain_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec3_San Diego County_edattain_data.csv
+
+
+Source: Lightcast <MMM YYYY>
+
+
+Skills Gap
+
+The Talent and Workforce: Skills Gap section produces 1 AI response and 1 visualization. 
+
+Skills gap data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt and visualization: sec3_San Diego_skills_gap_data.csv
+
+
+San Diego County:
+For AI prompt and visualization: sec3_San Diego County_skills_gap_data.csv
+Source: Lightcast <MMM YYYY>
+
+
+
+
+Section 4: Capital
+
+The Capital section produces 1 AI response and 1 visualization. 
+
+Capital data is provided at the national level.
+
+Datasets:
+	
+San Diego and San Diego County:
+For AI prompt and visualization: sec4_capital_data.csv
+
+
+Source: Federal Reserve System (US) <MMM YYYY>
+
+
+
+Section 5: Income and Housing
+
+Median Household Income
+
+The Income and Housing: Median Household Income section produces 1 AI response and 2 visualizations. 
+
+Median household income data is available at the city level.
+
+Datasets:
+	
+San Diego:
+For AI prompt: All data
+For visualization 1: sec5_San Diego_household_inc_data.csv
+For visualization 2: sec5_San Diego_household_inc_peers_data.csv
+
+
+San Diego County:
+For AI prompt: All data
+For visualization 1: sec5_San Diego County_household_inc_data.csv
+For visualization 2: sec5_San Diego County_household_inc_peers_data.csv
+
+
+Source: US Census Bureau ACS <MMM YYYY>
+
+
+
+Median Home Price
+
+The Income and Housing: Median Home Price section produces 1 AI response and 2 visualizations. 
+
+Median home price data is available at the city level.
+
+Datasets:
+	
+San Diego:
+For AI prompt: All data
+For visualization 1: sec5_San Diego_home_price_data.csv
+For visualization 2: sec5_San Diego_home_price_peers_data.csv
+
+
+San Diego County:
+For AI prompt: All data
+For visualization 1: sec5_San Diego County_home_price_data.csv
+For visualization 2: sec5_San Diego County_home_price_peers_data.csv
+Source: US Census Bureau ACS <MMM YYYY>
+
+
+
+
+Housing Starts
+
+The Income and Housing: Housing Starts section produces 1 AI response and 2 visualizations. 
+
+Housing starts data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt: All data
+For visualization 1: sec5_San Diego_housing_starts_data.csv
+For visualization 2: sec5_San Diego_housing_starts_peers_data.csv
+
+
+San Diego County:
+For AI prompt: All data
+For visualization 1: sec5_San Diego County_housing_starts_data.csv
+For visualization 2: sec5_San Diego County_housing_starts_peers_data.csv
+
+Source: US Census Bureau ACS <MMM YYYY>
+
+
+
+Section 6: Business Activity
+
+The Business Activity section produces 1 AI response and 2 visualizations. 
+
+Business activity (firms) data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt: sec6_San Diego_firms_data.csv
+For visualization 1: sec6_San Diego_firms_yoy_data.csv
+For visualization 2: sec6_San Diego_firms_percap_data.csv
+
+
+San Diego County:
+For AI prompt: sec6_San Diego County_firms_data.csv
+For visualization 1: sec6_San Diego County_firms_yoy_data.csv
+For visualization 2: sec6_San Diego County_firms_percap_data.csv
+
+
+Source: US Census Bureau, 2022 Business Dynamics Statistics <MMM YYYY>
+
+
+Section 7: Industry Clusters
+
+The Industry Impact section produces 1 AI response and 1 visualization. 
+
+Industry clusters data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+
+San Diego:
+For AI prompt and visualization: sec7_San Diego_pri_sec_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec7_San Diego County_pri_sec_data.csv
+
+
+Source: Lightcast <MMM YYYY>
+
+
+
+
+Section 8: Industry Impact
+
+Mean Earnings
+
+The Industry Impact: Mean Earnings section produces 1 AI response and 1 visualization. 
+
+Mean earnings data is available at the city level.
+
+
+San Diego:
+For AI prompt and visualization: sec8_San Diego_mean_earn_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec8_San Diego County_mean_earn_data.csv
+
+Source: Lightcast <MMM YYYY>
+
+
+Jobs
+
+The Industry Impact: Jobs section produces 1 AI response and 1 visualization. 
+
+Mean earnings data is available at the city level.
+
+
+San Diego:
+For AI prompt and visualization: sec8_San Diego_jobs_ind_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec8_San Diego County_jobs_ind_data.csv
+
+
+Source: Lightcast <MMM YYYY>

@@ -1,0 +1,15 @@
+Section 7: Industry Clusters
+
+The Industry Impact section produces 1 AI response and 1 visualization. 
+
+Industry clusters data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+
+San Diego:
+For AI prompt and visualization: sec7_San Diego_pri_sec_data.csv
+
+San Diego County:
+For AI prompt and visualization: sec7_San Diego County_pri_sec_data.csv
+
+
+Source: Lightcast <MMM YYYY>

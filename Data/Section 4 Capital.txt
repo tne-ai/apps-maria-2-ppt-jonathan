@@ -1,0 +1,13 @@
+Section 4: Capital
+
+The Capital section produces 1 AI response and 1 visualization. 
+
+Capital data is provided at the national level.
+
+Datasets:
+	
+San Diego and San Diego County:
+For AI prompt and visualization: sec4_capital_data.csv
+
+
+Source: Federal Reserve System (US) <MMM YYYY>

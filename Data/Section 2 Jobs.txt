@@ -1,0 +1,39 @@
+Section 2: Jobs
+
+Unemployment
+
+The Jobs: Unemployment section produces 1 AI response and 2 visualizations. 
+
+Unemployment data is not available at the city level, so we will fall back to the county-level data here, however, we will provide the AI assistant with background information regarding the target jurisdiction.
+
+Datasets:
+	
+San Diego:
+For AI prompt and visualization 1: sec2_San Diego_unemp_data.csv
+For visualization 2: sec2_San Diego_unemp_peers_data.csv
+
+
+San Diego County:
+For AI prompt and visualization 1: sec2_San Diego County_unemp_data.csv
+For visualization 2: sec2_San Diego County_unemp_peers_data.csv
+Source: Lightcast <MMM YYYY>
+
+
+
+Industry Job Postings
+
+The Jobs: Industry Job Postings section produces 1 AI response and 1 visualization. 
+
+Job postings data is available at the city level.
+
+Datasets:
+	
+San Diego:
+For AI prompt and visualization: sec2_San Diego_job_postings_data.csv
+
+
+San Diego County:
+For AI prompt and visualization: sec2_San Diego County_job_postings_data.csv
+
+
+Source: Lightcast <MMM YYYY>

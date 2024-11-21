@@ -1,0 +1,61 @@
+Section 5 of the Economic Scan Report focuses on Income and Housing, specifically analyzing three key areas: Median Household Income, Median Home Price, and Housing Starts. Each of these areas produces one AI response and two visualizations. Let's break down each component:
+
+### Median Household Income
+- **Data Availability**: Median household income data is available at the city level.
+- **Datasets**:
+  - **San Diego**: 
+    - For AI prompt: All data
+    - For visualization 1: `sec5_San Diego_household_inc_data.csv`
+    - For visualization 2: `sec5_San Diego_household_inc_peers_data.csv`
+  - **San Diego County**: 
+    - For AI prompt: All data
+    - For visualization 1: `sec5_San Diego County_household_inc_data.csv`
+    - For visualization 2: `sec5_San Diego County_household_inc_peers_data.csv`
+- **Source**: US Census Bureau ACS
+
+### Median Home Price
+- **Data Availability**: Median home price data is available at the city level.
+- **Datasets**:
+  - **San Diego**: 
+    - For AI prompt: All data
+    - For visualization 1: `sec5_San Diego_home_price_data.csv`
+    - For visualization 2: `sec5_San Diego_home_price_peers_data.csv`
+  - **San Diego County**: 
+    - For AI prompt: All data
+    - For visualization 1: `sec5_San Diego County_home_price_data.csv`
+    - For visualization 2: `sec5_San Diego County_home_price_peers_data.csv`
+- **Source**: US Census Bureau ACS
+
+### Housing Starts
+- **Data Availability**: Housing starts data is not available at the city level, so county-level data is used.
+- **Datasets**:
+  - **San Diego**: 
+    - For AI prompt: All data
+    - For visualization 1: `sec5_San Diego_housing_starts_data.csv`
+    - For visualization 2: `sec5_San Diego_housing_starts_peers_data.csv`
+  - **San Diego County**: 
+    - For AI prompt: All data
+    - For visualization 1: `sec5_San Diego County_housing_starts_data.csv`
+    - For visualization 2: `sec5_San Diego County_housing_starts_peers_data.csv`
+- **Source**: US Census Bureau ACS
+
+### Analysis of Median Home Price Data for San Diego County
+Let's analyze the median home price data for San Diego County using the provided CSV data:
+
+#### Data Points:
+- **2019**: $619,300
+- **2020**: $703,833
+- **2021**: $722,200
+- **2022**: $846,600
+- **2023**: $864,900
+
+#### Observations:
+1. **Trend**: There is a consistent increase in median home prices from 2019 to 2023.
+2. **Growth Rate**: 
+   - From 2019 to 2020, the median home price increased by approximately 13.64%.
+   - From 2020 to 2021, the increase was about 2.61%.
+   - From 2021 to 2022, the increase was approximately 17.21%.
+   - From 2022 to 2023, the increase was about 2.16%.
+3. **Overall Increase**: From 2019 to 2023, the median home price increased by approximately 39.61%.
+
+This analysis indicates a strong upward trend in home prices in San Diego County, with significant growth observed particularly between 2021 and 2022. This could be indicative of various economic factors such as demand, supply constraints, or changes in the housing market dynamics.

@@ -1,0 +1,14 @@
+title: Section_5.model
+model:
+  engine_name: openai-gpt
+  model_name: gpt-4o
+  api_key: OPENAI_API_KEY
+temperature: 0
+max_tokens: 500
+database: ''
+stream: true
+prompt: |-
+  You are an economics expert versed in the analysis of Capital.
+  Use the supplied text requirements and perform analysis based on the provided .CSV data files.
+  check math
+  step by step

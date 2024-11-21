@@ -154,11 +154,11 @@ nodes:
     data:
       id: ZLZEYryKwTxJu3gDO3JVD
       title: Section 1 Prompt TXT
-      fileName: Section 1 Gross Regional Product.txt
+      fileName: sec1_San Diego County_grp_data.csv
       flowState: *ref_1
     width: 193
     height: 274
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
       x: 316.7219574667562

@@ -1,79 +1,50 @@
-To analyze the Gross Regional Product (GRP) for San Diego County, we will use the provided data from the file `sec1_San Diego County_grp_data.csv`. This file contains data on various industries within San Diego County, California, for the years 2019 to 2023. We will also compare this data with state-level (California) and national-level data using the same file.
+To generate a report on the Gross Regional Product (GRP) for San Diego County, we will analyze the data provided in the `sec1_San Diego County_grp_data.csv` and `sec1_San Diego County_per_capita_grp_data.csv` files. The analysis will focus on the GRP by industry and the per capita GRP over the years 2019 to 2023. 
 
-### Step-by-Step Analysis:
+### Gross Regional Product Analysis for San Diego County
 
-1. **Data Overview:**
-   - The dataset includes the following columns: `area`, `year`, `naics_id`, `industry`, `dollars`, and `last_update`.
-   - The `area` column identifies the geographic region, with `06073` representing San Diego County, `06` representing California, and `000` representing the United States.
-   - The `year` column indicates the year of the data.
-   - The `naics_id` and `industry` columns provide the industry classification.
-   - The `dollars` column represents the GRP in dollars for each industry.
+#### Overview
+The Gross Regional Product (GRP) is a measure of the economic output of a region. It is analogous to the Gross Domestic Product (GDP) at the national level. The GRP data for San Diego County provides insights into the economic performance of various industries within the region.
 
-2. **San Diego County GRP Analysis:**
-   - We will calculate the total GRP for San Diego County for each year by summing the `dollars` values for all industries within the `06073` area.
+#### GRP by Industry (2019-2023)
+The GRP data for San Diego County is categorized by industry and spans from 2019 to 2023. Below is a summary of the key industries and their economic contributions in 2023:
 
-3. **Comparison with State and National Data:**
-   - We will compare the total GRP of San Diego County with the total GRP of California (`06`) and the United States (`000`) for each year.
+1. **Government**: $52,922,899,790.76
+2. **Professional, Scientific, and Technical Services**: $37,043,140,500.56
+3. **Manufacturing**: $31,669,563,550.34
+4. **Health Care and Social Assistance**: $20,213,811,990.03
+5. **Finance and Insurance**: $19,499,330,483.44
 
-4. **Identify Key Industries:**
-   - We will identify the top industries contributing to the GRP in San Diego County by analyzing the `dollars` values for each industry.
+These industries are the top contributors to the GRP in San Diego County for 2023, with Government being the largest sector.
 
-### Calculations:
+#### GRP Growth Over Time
+The total GRP for San Diego County has shown a consistent increase over the years:
 
-#### San Diego County Total GRP:
+- **2019**: $244,278,846,457.50
+- **2020**: $244,822,303,264.04
+- **2021**: $268,873,550,391.04
+- **2022**: $296,683,894,891.99
+- **2023**: $308,710,843,090.86
 
-- **2019:**
-  - Total GRP = Sum of `dollars` for `area` = `06073` and `year` = `2019`
-  - Total GRP = 9021731012.12 + 7858065382.3 + 1024158639.37 + 2881549949.93 + 10126967751.77 + 2421265240.75 + 14674333780.41 + 21526020537.97 + 45186138076.33 + 15383067229.84 + 10484099169.88 + 3530818184.94 + 28263259240.77 + 144989119.92 + 4840079133.49 + 28127218558.6 + 9223936751.71 + 11711293504.97 + 3085525371.05 + 3001200774.55 + 11763129046.83
-  - Total GRP = 244,278,846,457.5
+This growth indicates a robust economic expansion in the region, with a notable increase from 2021 to 2022.
 
-- **2020:**
-  - Total GRP = Sum of `dollars` for `area` = `06073` and `year` = `2020`
-  - Total GRP = 6528439125.12 + 7711982033.37 + 907172513.43 + 1791040539.5 + 10007918923.76 + 2195851712.92 + 17594064253.31 + 21898081363.26 + 46580257416.16 + 15639592042.31 + 9913771868.38 + 3868347320.36 + 28833396810.75 + 102540839.24 + 3988195341.97 + 29098839603.95 + 8720387504.51 + 11825550429.74 + 2673570145.55 + 3271991571.17 + 11671311905.28
-  - Total GRP = 244,822,303,264.04
+#### Per Capita GRP (2019-2023)
+The per capita GRP provides a measure of the average economic output per person in the region. It is calculated by dividing the total GRP by the population.
 
-- **2021:**
-  - Total GRP = Sum of `dollars` for `area` = `06073` and `year` = `2021`
-  - Total GRP = 8800383139.54 + 9592242766.96 + 1083260950.13 + 2415636111.13 + 10570989843.86 + 2227540683.64 + 19033313820.19 + 22652458258.85 + 49228679685.92 + 16974739364.19 + 10693413957.46 + 4519109892.35 + 31276626755.35 + 109938603.95 + 4345458008.16 + 32509814018.59 + 9448662456.13 + 13296254130.36 + 3189489135.11 + 3664808853.69 + 13240729955.48
-  - Total GRP = 268,873,550,391.04
+- **2019**: $73,346.92
+- **2020**: $74,277.60
+- **2021**: $82,099.95
+- **2022**: $90,557.10
+- **2023**: $94,915.87
 
-- **2022:**
-  - Total GRP = Sum of `dollars` for `area` = `06073` and `year` = `2022`
-  - Total GRP = 11774881705.2 + 12177722207.08 + 1358643626.74 + 3316520984.07 + 12074664693.22 + 2433020886.4 + 19850096186.54 + 24166449776.53 + 50556468036.06 + 19448001967.42 + 11811895144.75 + 4310190038.91 + 33502353186.82 + 170814515.86 + 5183315105.83 + 35740742439.89 + 10933248572.63 + 14734775107.96 + 3875316755.2 + 4345480589.5 + 14919293365.38
-  - Total GRP = 296,683,894,891.99
+The per capita GRP has increased significantly over the years, reflecting both population growth and economic expansion.
 
-- **2023:**
-  - Total GRP = Sum of `dollars` for `area` = `06073` and `year` = `2023`
-  - Total GRP = 11833760897.28 + 11304936654.41 + 1576867627.7 + 3588235567.59 + 12667991170.48 + 2441232703.5 + 19499330483.44 + 26514154687.91 + 52922899790.76 + 20213811990.03 + 14898419816.6 + 4146461224.91 + 31669563550.34 + 196115838.23 + 5567515763.47 + 37043140500.56 + 12330431390.54 + 16239988479.32 + 4755652766.52 + 4333967139.1 + 14966365048.17
-  - Total GRP = 308,710,843,090.86
+#### Comparison with State and National Levels
+For context, we compare San Diego County's per capita GRP with the state of California and the national average:
 
-#### Comparison with State and National Data:
+- **California (2023)**: $93,799.67
+- **National (2023)**: $77,366.43
 
-- **California (State) Total GRP:**
-  - 2019: 2,988,922,635,912.63
-  - 2020: 2,961,220,972,406.21
-  - 2021: 3,310,971,279,555.43
-  - 2022: 3,537,472,975,398.05
-  - 2023: 3,650,092,494,382.46
+San Diego County's per capita GRP of $94,915.87 in 2023 is higher than both the state and national averages, indicating a strong economic performance relative to these benchmarks.
 
-- **United States (National) Total GRP:**
-  - 2019: 20,932,206,705,691.04
-  - 2020: 20,605,670,032,083.35
-  - 2021: 22,863,031,609,317.27
-  - 2022: 24,959,572,656,548.07
-  - 2023: 25,958,622,498,968.79
-
-#### Key Industries in San Diego County (2023):
-
-- **Top Industries by GRP:**
-  - Government: $52,922,899,790.76
-  - Professional, Scientific, and Technical Services: $37,043,140,500.56
-  - Manufacturing: $31,669,563,550.34
-  - Health Care and Social Assistance: $20,213,811,990.03
-  - Finance and Insurance: $19,499,330,483.44
-
-### Summary:
-
-- San Diego County's GRP has shown a consistent increase from 2019 to 2023, with a total GRP of approximately $308.71 billion in 2023.
-- The Government sector is the largest contributor to the GRP in San Diego County, followed by Professional, Scientific, and Technical Services, and Manufacturing.
-- When compared to the state and national levels, San Diego County's GRP is a small fraction, highlighting its role as a significant but not dominant economic region within California and the United States.
+### Conclusion
+San Diego County has demonstrated strong economic growth from 2019 to 2023, with significant contributions from the Government, Professional Services, and Manufacturing sectors. The increase in per capita GRP further highlights the region's economic prosperity, surpassing both state and national averages. This positive trend suggests a thriving economic environment in San Diego County.

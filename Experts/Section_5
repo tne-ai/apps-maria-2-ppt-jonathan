@@ -8,7 +8,7 @@ nodes:
       id: BIznahQrh3X5Hlp0ZXVRp
       title: Data
       fileName: sec5-1_San Diego County_home_price_data.csv
-      flowState: &ref_0
+      flowState:
         backend: git
         repo: apps-maria-2
     width: 188
@@ -33,7 +33,9 @@ nodes:
       outputType: overwrite
       outputToCanvas: false
       useUserQuery: false
-      flowState: *ref_0
+      flowState:
+        backend: git
+        repo: apps-maria-2
     width: 205
     height: 465
     selected: false
@@ -52,7 +54,7 @@ nodes:
       outputName: Section_5_Output.txt
     width: 188
     height: 189
-    selected: true
+    selected: false
     positionAbsolute:
       x: 126.57879077191683
       'y': 1223.8984433249107
@@ -128,7 +130,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 188
     height: 273
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
       x: -507.53702037888786
@@ -142,7 +144,7 @@ nodes:
       id: hJSaHoUwRTLIsFP5Wooti
       title: Data
       fileName: sec5-2_San Diego County_home_price_peers_data.csv
-      flowState: &ref_1
+      flowState: &ref_0
         backend: git
         repo: apps-maria-2
         content:
@@ -287,7 +289,7 @@ nodes:
       id: PXfDdon2gZi1g5vN1-RGh
       title: Data
       fileName: sec5-3_San Diego County_household_inc_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -304,7 +306,7 @@ nodes:
       id: XOqEss1BpIspRw8cX1KJE
       title: Data
       fileName: sec5-4_San Diego County_housing_starts_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -321,7 +323,7 @@ nodes:
       id: gVN3MlU0uSY_OFtgpF10c
       title: Data
       fileName: sec5-5_San Diego County_housing_starts_peers_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -338,7 +340,7 @@ nodes:
       id: Q4Dd1LwPO0rOpNMNlWtVm
       title: Data
       fileName: sec5-6_San Diego_home_price_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -355,7 +357,7 @@ nodes:
       id: xEZQPPhwcJuEOR4msneaJ
       title: Data
       fileName: sec5-7_San Diego_home_price_peers_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -372,7 +374,7 @@ nodes:
       id: kXPUNoDpTqwVuR5ZHOACB
       title: Data
       fileName: sec5-8_San Diego_household_inc_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -389,7 +391,7 @@ nodes:
       id: jTM5Ou7EYvuY20HxAJJFa
       title: Data
       fileName: sec5-9_San Diego_housing_starts_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -406,7 +408,7 @@ nodes:
       id: CVczalul0hEbAoznSjx5M
       title: Data
       fileName: sec5-10_San Diego_housing_starts_peers_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -423,7 +425,7 @@ nodes:
       id: 28-9GqcSvWvlPYIDeWL_3
       title: Data
       fileName: sec5-11_San Diego County_household_inc_peers_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false
@@ -440,7 +442,7 @@ nodes:
       id: cK6rSdURhyad5IKcepSGY
       title: Data
       fileName: sec5-12_San Diego_household_inc_peers_data.csv
-      flowState: *ref_1
+      flowState: *ref_0
     width: 188
     height: 273
     selected: false

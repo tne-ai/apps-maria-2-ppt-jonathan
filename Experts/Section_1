@@ -72,8 +72,8 @@ nodes:
   - id: 6HRLbEep5aYPmBacd7A6H
     type: llm
     position:
-      x: 490.8811618885503
-      'y': 299.6469235771044
+      x: 489.7144801895578
+      'y': 297.3135601791196
     data:
       id: 6HRLbEep5aYPmBacd7A6H
       title: Section 1
@@ -82,15 +82,15 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: *ref_0
     width: 205
     height: 465
     selected: false
     positionAbsolute:
-      x: 490.8811618885503
-      'y': 299.6469235771044
+      x: 489.7144801895578
+      'y': 297.3135601791196
     dragging: false
   - id: l3axZJqi3_viZBeqtIKK_
     type: out
@@ -177,7 +177,7 @@ nodes:
       toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: false
+      useUserQuery: true
       flowState: &ref_2
         backend: git
         repo: apps-maria-2
@@ -202,7 +202,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 205
     height: 489
-    selected: false
+    selected: true
     positionAbsolute:
       x: 955.8754987547886
       'y': 496.43682282279275
@@ -219,7 +219,7 @@ nodes:
       flowState: *ref_2
     width: 188
     height: 225
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1115.3315877791772
       'y': 214.73021846168433

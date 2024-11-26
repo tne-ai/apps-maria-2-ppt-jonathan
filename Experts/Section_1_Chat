@@ -73,7 +73,7 @@ nodes:
     type: llm
     position:
       x: 489.7144801895578
-      'y': 297.3135601791196
+      'y': 298.6554905160426
     data:
       id: 6HRLbEep5aYPmBacd7A6H
       title: Section 1
@@ -82,15 +82,17 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
-      flowState: *ref_0
+      flowState:
+        backend: git
+        repo: apps-maria-2
     width: 206
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 489.7144801895578
-      'y': 297.3135601791196
+      'y': 298.6554905160426
     dragging: false
   - id: l3axZJqi3_viZBeqtIKK_
     type: out

@@ -94,22 +94,6 @@ nodes:
       x: 489.7144801895578
       'y': 297.3135601791196
     dragging: false
-  - id: l3axZJqi3_viZBeqtIKK_
-    type: out
-    position:
-      x: 496.33834084553916
-      'y': 828.9258534088946
-    data:
-      id: l3axZJqi3_viZBeqtIKK_
-      title: Save File
-      outputName: Section_1_Output.txt
-    width: 193
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 496.33834084553916
-      'y': 828.9258534088946
-    dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
     position:
@@ -204,7 +188,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 206
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 955.8754987547886
       'y': 496.43682282279275
@@ -247,11 +231,6 @@ edges:
     target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
     id: r50ZnG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: l3axZJqi3_viZBeqtIKK_
-    targetHandle: t
-    id: RGMu9H
   - source: W_y2BrbeKeueWAf30Syqn
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

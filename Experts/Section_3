@@ -11,8 +11,8 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
@@ -28,8 +28,8 @@ nodes:
       title: Data
       fileName: sec3-2_San Diego County_skills_gap_data.csv
       flowState: *ref_0
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     positionAbsolute:
       x: 717.3151196524861
@@ -45,9 +45,9 @@ nodes:
       title: Data
       fileName: sec3-3_San Diego_edattain_data.csv
       flowState: *ref_0
-    width: 188
-    height: 273
-    selected: true
+    width: 193
+    height: 274
+    selected: false
     dragging: false
     positionAbsolute:
       x: 922.0420608411008
@@ -65,33 +65,17 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 205
-    height: 465
+    width: 206
+    height: 466
     selected: false
     positionAbsolute:
       x: 505.34602871164896
       'y': 366.533778903244
-    dragging: false
-  - id: l3axZJqi3_viZBeqtIKK_
-    type: out
-    position:
-      x: 496.84602092532486
-      'y': 913.213323141417
-    data:
-      id: l3axZJqi3_viZBeqtIKK_
-      title: Save File
-      outputName: Section_3_Output.txt
-    width: 193
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 496.84602092532486
-      'y': 913.213323141417
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -124,8 +108,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 188
-    height: 249
+    width: 193
+    height: 250
     selected: false
     positionAbsolute:
       x: 98.38297958332475
@@ -162,14 +146,85 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
       x: 316.7219574667562
       'y': -92.17835812272921
+  - id: Ju7mD93j-UbOa6xdWEaC8
+    type: llm
+    position:
+      x: 895.9905923335779
+      'y': 504.01125011356294
+    data:
+      id: Ju7mD93j-UbOa6xdWEaC8
+      title: New Model
+      input: ''
+      slashgptManifest: ie_item_generator.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: true
+      flowState: &ref_1
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_3
+          path: Experts/Section_3
+          sha: cc96eb8ad45584a04fd620b91eec01e9b03ffe72
+          size: 5846
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_3?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_3
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/cc96eb8ad45584a04fd620b91eec01e9b03ffe72
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_3
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_3?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/cc96eb8ad45584a04fd620b91eec01e9b03ffe72
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_3
+    width: 206
+    height: 490
+    selected: false
+    positionAbsolute:
+      x: 895.9905923335779
+      'y': 504.01125011356294
+    dragging: false
+  - id: XrvVMbIawYFG7nOe9Y9Pq
+    type: file
+    position:
+      x: 1033.0566946182753
+      'y': 211.80439469343824
+    data:
+      id: XrvVMbIawYFG7nOe9Y9Pq
+      title: Data
+      fileName: ie_item_template.txt
+      flowState: *ref_1
+    width: 193
+    height: 226
+    selected: true
+    positionAbsolute:
+      x: 1033.0566946182753
+      'y': 211.80439469343824
+    dragging: false
 edges:
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: r
+    target: Ju7mD93j-UbOa6xdWEaC8
+    targetHandle: l
+    id: zyfuhT
+  - source: XrvVMbIawYFG7nOe9Y9Pq
+    sourceHandle: b
+    target: Ju7mD93j-UbOa6xdWEaC8
+    targetHandle: t
+    id: RqElpC
   - source: ZLZEYryKwTxJu3gDO3JVD
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H
@@ -180,11 +235,6 @@ edges:
     target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
     id: r50ZnG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: l3axZJqi3_viZBeqtIKK_
-    targetHandle: t
-    id: RGMu9H
   - source: 057rYnS3aw3cWeyNPKpUh
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

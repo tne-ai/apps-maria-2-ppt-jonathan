@@ -11,8 +11,8 @@ nodes:
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
@@ -31,33 +31,17 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 205
-    height: 465
-    selected: true
+    width: 206
+    height: 466
+    selected: false
     positionAbsolute:
       x: 657.8638751494091
       'y': 339.57846633220566
-    dragging: false
-  - id: l3axZJqi3_viZBeqtIKK_
-    type: out
-    position:
-      x: 663.5371757512488
-      'y': 914.2350534568825
-    data:
-      id: l3axZJqi3_viZBeqtIKK_
-      title: Save File
-      outputName: Section_8_Output.txt
-    width: 188
-    height: 189
-    selected: false
-    positionAbsolute:
-      x: 663.5371757512488
-      'y': 914.2350534568825
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -90,8 +74,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 188
-    height: 249
+    width: 193
+    height: 250
     selected: false
     positionAbsolute:
       x: 98.38297958332475
@@ -128,8 +112,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
@@ -274,8 +258,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/794e70712c13d1a5b54404d460bf50b25e647913
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_6
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
@@ -293,8 +277,8 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
@@ -310,14 +294,85 @@ nodes:
       title: Data
       fileName: sec8-4_San Diego_mean_earn_data.csv
       flowState: *ref_0
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     dragging: false
     positionAbsolute:
       x: 1154.3125302168382
       'y': -90.06377090353313
+  - id: KwwaU_Jrb4NFaAOrgFQ3y
+    type: llm
+    position:
+      x: 998.8055052480433
+      'y': 487.93823647171376
+    data:
+      id: KwwaU_Jrb4NFaAOrgFQ3y
+      title: New Model
+      input: ''
+      slashgptManifest: ie_item_generator.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: true
+      flowState: &ref_1
+        backend: git
+        repo: apps-maria-2
+        content:
+          name: Section_8
+          path: Experts/Section_8
+          sha: cc8411b6c03bf3431f48e47808b9409d3a907f89
+          size: 15179
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_8?ref=main
+          html_url: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_8
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/cc8411b6c03bf3431f48e47808b9409d3a907f89
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2/main/Experts/Section_8
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/contents/Experts/Section_8?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/cc8411b6c03bf3431f48e47808b9409d3a907f89
+            html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_8
+    width: 206
+    height: 490
+    selected: true
+    positionAbsolute:
+      x: 998.8055052480433
+      'y': 487.93823647171376
+    dragging: false
+  - id: UW10EGVp0gMbaSwEkWZzZ
+    type: file
+    position:
+      x: 1051.568296022173
+      'y': 213.57172444624038
+    data:
+      id: UW10EGVp0gMbaSwEkWZzZ
+      title: Data
+      fileName: ie_item_template.txt
+      flowState: *ref_1
+    width: 193
+    height: 226
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1051.568296022173
+      'y': 213.57172444624038
 edges:
+  - source: UW10EGVp0gMbaSwEkWZzZ
+    sourceHandle: b
+    target: KwwaU_Jrb4NFaAOrgFQ3y
+    targetHandle: t
+    id: 6O1zFS
+  - source: 6HRLbEep5aYPmBacd7A6H
+    sourceHandle: r
+    target: KwwaU_Jrb4NFaAOrgFQ3y
+    targetHandle: l
+    id: SPuPts
   - source: W6Yytzp2t_dGDXJ3gzA8O
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H
@@ -343,11 +398,6 @@ edges:
     target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
     id: r50ZnG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: l3axZJqi3_viZBeqtIKK_
-    targetHandle: t
-    id: RGMu9H
   - source: BIznahQrh3X5Hlp0ZXVRp
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

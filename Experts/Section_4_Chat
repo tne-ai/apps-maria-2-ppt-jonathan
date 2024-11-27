@@ -11,9 +11,9 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 188
-    height: 249
-    selected: true
+    width: 193
+    height: 250
+    selected: false
     dragging: false
     positionAbsolute:
       x: 518.8358935676725
@@ -34,28 +34,12 @@ nodes:
       outputToCanvas: false
       useUserQuery: false
       flowState: *ref_0
-    width: 205
-    height: 465
+    width: 206
+    height: 466
     selected: false
     positionAbsolute:
       x: 307.87131235502113
       'y': 355.5629613278758
-    dragging: false
-  - id: l3axZJqi3_viZBeqtIKK_
-    type: out
-    position:
-      x: 299.37130456869716
-      'y': 908.511544180545
-    data:
-      id: l3axZJqi3_viZBeqtIKK_
-      title: Save File
-      outputName: Section_4_Output.txt
-    width: 188
-    height: 189
-    selected: false
-    positionAbsolute:
-      x: 299.37130456869716
-      'y': 908.511544180545
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -88,8 +72,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 188
-    height: 249
+    width: 193
+    height: 250
     selected: false
     positionAbsolute:
       x: 98.38297958332475
@@ -126,8 +110,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 188
-    height: 249
+    width: 193
+    height: 250
     selected: false
     dragging: false
     positionAbsolute:
@@ -144,11 +128,6 @@ edges:
     target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
     id: r50ZnG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: l3axZJqi3_viZBeqtIKK_
-    targetHandle: t
-    id: RGMu9H
   - source: BIznahQrh3X5Hlp0ZXVRp
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

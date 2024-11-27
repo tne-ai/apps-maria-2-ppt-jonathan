@@ -215,8 +215,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/4c503bb525980e32552ee27438115ac0d2df9b6d
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: false
     positionAbsolute:
       x: 1332.7232525730337
@@ -232,8 +232,8 @@ nodes:
       title: Data
       fileName: sec2-6_San Diego_unemp_peers_data.csv
       flowState: *ref_1
-    width: 188
-    height: 273
+    width: 193
+    height: 274
     selected: true
     dragging: false
     positionAbsolute:

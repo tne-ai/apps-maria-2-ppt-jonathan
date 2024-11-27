@@ -11,8 +11,8 @@ nodes:
       flowState: &ref_0
         backend: git
         repo: apps-maria-2
-    width: 193
-    height: 250
+    width: 190
+    height: 249
     selected: false
     dragging: false
     positionAbsolute:
@@ -28,8 +28,8 @@ nodes:
       title: Data
       fileName: sec1-2_San Diego County_per_capita_grp_data.csv
       flowState: *ref_0
-    width: 193
-    height: 274
+    width: 190
+    height: 273
     selected: false
     positionAbsolute:
       x: 717.3151196524861
@@ -45,8 +45,8 @@ nodes:
       title: Data
       fileName: sec1-3_San Diego_grp_data.csv
       flowState: *ref_0
-    width: 193
-    height: 250
+    width: 190
+    height: 249
     selected: false
     dragging: false
     positionAbsolute:
@@ -62,8 +62,8 @@ nodes:
       title: Data
       fileName: sec1-4_San Diego_per_capita_grp_data.csv
       flowState: *ref_0
-    width: 193
-    height: 274
+    width: 190
+    height: 273
     selected: false
     positionAbsolute:
       x: 1127.705227867265
@@ -87,28 +87,12 @@ nodes:
       flowState:
         backend: git
         repo: apps-maria-2
-    width: 206
-    height: 466
-    selected: true
+    width: 205
+    height: 465
+    selected: false
     positionAbsolute:
       x: 489.7144801895578
       'y': 298.6554905160426
-    dragging: false
-  - id: l3axZJqi3_viZBeqtIKK_
-    type: out
-    position:
-      x: 496.33834084553916
-      'y': 828.9258534088946
-    data:
-      id: l3axZJqi3_viZBeqtIKK_
-      title: Save File
-      outputName: Section_1_Output.txt
-    width: 193
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 496.33834084553916
-      'y': 828.9258534088946
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -141,8 +125,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/8f37c98d78ab5c8264275bfdded46c937299095f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
-    width: 193
-    height: 250
+    width: 190
+    height: 249
     selected: false
     positionAbsolute:
       x: 106.16891329989005
@@ -158,8 +142,8 @@ nodes:
       title: Section 1 Prompt TXT
       fileName: Section 1 Gross Regional Product.txt
       flowState: *ref_1
-    width: 193
-    height: 274
+    width: 190
+    height: 273
     selected: false
     dragging: false
     positionAbsolute:
@@ -176,11 +160,6 @@ edges:
     target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
     id: r50ZnG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: l3axZJqi3_viZBeqtIKK_
-    targetHandle: t
-    id: RGMu9H
   - source: W_y2BrbeKeueWAf30Syqn
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

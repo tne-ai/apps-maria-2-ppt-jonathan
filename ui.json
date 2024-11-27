@@ -1,12 +1,61 @@
 {
-  "version": "maria2--42435c1e-20241127060529",
+  "version": "maria2--d376a5ed-20241127071040",
   "data": [
     {
-      "id": "19be2f2e-478c-4928-afe0-4af399985be8",
+      "id": "687eae7e-2ff1-49cf-aea3-c91af4af9fd9",
       "data_source": "",
       "item_expert_name": "Section_1",
       "chat_expert_name": "Section_1_Chat",
-      "title": "Section_1"
+      "title": "Section 1 - Gross Regional Product"
+    },
+    {
+      "id": "dc9c21c8-fd54-49bd-bf5c-d404f935b9f3",
+      "data_source": "",
+      "item_expert_name": "Section_2",
+      "chat_expert_name": "Section_2_Chat",
+      "title": "Section 2 - Jobs Reports"
+    },
+    {
+      "id": "d4fed9b7-22d4-4a6e-8a9c-f333302c4b8d",
+      "data_source": "",
+      "item_expert_name": "Section_3",
+      "chat_expert_name": "Section_3_Chat",
+      "title": "Section 3 - Talent and Workforce"
+    },
+    {
+      "id": "9da6d0c4-9ee8-4b42-b924-325449cd1ed9",
+      "data_source": "",
+      "item_expert_name": "Section_4",
+      "chat_expert_name": "Section_4_Chat",
+      "title": "Section 4 - Capital"
+    },
+    {
+      "id": "0f677270-9643-4df2-b164-e3f51d1f1edc",
+      "data_source": "",
+      "item_expert_name": "Section_5",
+      "chat_expert_name": "Section_5_Chat",
+      "title": "Section 5 - Income and Housing"
+    },
+    {
+      "id": "7b225ac3-4bfd-4bf9-bcf5-3f5c2e90e4a1",
+      "data_source": "",
+      "item_expert_name": "Section_6",
+      "chat_expert_name": "Section_6_Chat",
+      "title": "Section 6 - Business Activity"
+    },
+    {
+      "id": "62a7a9d1-1b09-4dd6-a427-9f8c55d69a56",
+      "data_source": "",
+      "item_expert_name": "Section_7",
+      "chat_expert_name": "Section_7_Chat",
+      "title": "Section 7 - Industry Clusters"
+    },
+    {
+      "id": "4b163811-2a1a-440f-acca-29fbc49aa480",
+      "data_source": "",
+      "item_expert_name": "Section_8",
+      "chat_expert_name": "Section_8_Chat",
+      "title": "Section 8 - Industry Impact"
     }
   ]
 }

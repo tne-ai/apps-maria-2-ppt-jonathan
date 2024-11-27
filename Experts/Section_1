@@ -84,7 +84,9 @@ nodes:
       outputType: overwrite
       outputToCanvas: true
       useUserQuery: false
-      flowState: *ref_0
+      flowState:
+        backend: git
+        repo: apps-maria-2
     width: 206
     height: 466
     selected: false
@@ -202,7 +204,7 @@ nodes:
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_1
     width: 206
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 955.8754987547886
       'y': 496.43682282279275

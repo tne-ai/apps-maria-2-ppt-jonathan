@@ -87,26 +87,10 @@ nodes:
       flowState: *ref_0
     width: 206
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 835.346028711649
       'y': 350.533778903244
-    dragging: false
-  - id: l3axZJqi3_viZBeqtIKK_
-    type: out
-    position:
-      x: 838.8460209253249
-      'y': 907.213323141417
-    data:
-      id: l3axZJqi3_viZBeqtIKK_
-      title: Save File
-      outputName: Section_2_Output.txt
-    width: 193
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 838.8460209253249
-      'y': 907.213323141417
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -333,11 +317,6 @@ edges:
     target: 6HRLbEep5aYPmBacd7A6H
     targetHandle: t
     id: r50ZnG
-  - source: 6HRLbEep5aYPmBacd7A6H
-    sourceHandle: b
-    target: l3axZJqi3_viZBeqtIKK_
-    targetHandle: t
-    id: RGMu9H
   - source: W_y2BrbeKeueWAf30Syqn
     sourceHandle: b
     target: 6HRLbEep5aYPmBacd7A6H

@@ -56,20 +56,6 @@
       "item_expert_name": "Section_8",
       "chat_expert_name": "Section_8_Chat",
       "title": "Section 8 - Industry Impact"
-    },
-    {
-      "id": "88fcb964-1760-4422-9df3-774af53f37de",
-      "data_source": "",
-      "item_expert_name": "Section_2_Chat",
-      "chat_expert_name": "Section_2",
-      "title": "REDUNDANT DEMO"
-    },
-    {
-      "id": "6ee4d58e-5cba-496b-b259-711e5f135ac1",
-      "data_source": "",
-      "item_expert_name": "Section_1",
-      "chat_expert_name": "Section_1_Chat",
-      "title": "NEW CATEGORY"
     }
   ]
 }

@@ -28,7 +28,7 @@ nodes:
       title: Data
       fileName: sec3-2_San Diego County_skills_gap_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     positionAbsolute:
@@ -45,7 +45,7 @@ nodes:
       title: Data
       fileName: sec3-3_San Diego_edattain_data.csv
       flowState: *ref_0
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -59,9 +59,9 @@ nodes:
       'y': 366.533778903244
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 3
+      title: Section 4
       input: ''
-      slashgptManifest: Section_3.model
+      slashgptManifest: Section_4.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -72,7 +72,7 @@ nodes:
         repo: apps-maria-2
     width: 206
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 505.34602871164896
       'y': 366.533778903244

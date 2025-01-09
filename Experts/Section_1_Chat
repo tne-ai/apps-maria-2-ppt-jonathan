@@ -89,7 +89,7 @@ nodes:
         repo: apps-maria-2
     width: 205
     height: 465
-    selected: false
+    selected: true
     positionAbsolute:
       x: 489.7144801895578
       'y': 298.6554905160426

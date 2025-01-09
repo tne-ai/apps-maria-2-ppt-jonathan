@@ -73,7 +73,7 @@ nodes:
     type: llm
     position:
       x: 264.9784291146294
-      'y': 644.6243596266975
+      'y': 643.3097149789586
     data:
       id: 6HRLbEep5aYPmBacd7A6H
       title: Section 1
@@ -89,10 +89,10 @@ nodes:
         repo: apps-maria-2
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 264.9784291146294
-      'y': 644.6243596266975
+      'y': 643.3097149789586
     dragging: false
   - id: 31gU9a3-n1Fb95LvHCP3-
     type: file
@@ -205,7 +205,7 @@ nodes:
       flowState: *ref_2
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1091.3032049598453
       'y': 333.45869827485393

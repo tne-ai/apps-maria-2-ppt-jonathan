@@ -59,7 +59,7 @@ nodes:
       'y': 366.533778903244
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 4
+      title: Section 3
       input: ''
       slashgptManifest: Section_3.model
       toolJson: ''

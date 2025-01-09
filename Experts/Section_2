@@ -76,15 +76,17 @@ nodes:
       'y': 350.533778903244
     data:
       id: 6HRLbEep5aYPmBacd7A6H
-      title: Section 2
+      title: Section 1
       input: ''
-      slashgptManifest: Section_2.model
+      slashgptManifest: Section_1.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
       outputToCanvas: true
       useUserQuery: false
-      flowState: *ref_0
+      flowState:
+        backend: git
+        repo: apps-maria-2
     width: 206
     height: 466
     selected: true
@@ -199,8 +201,8 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/4c503bb525980e32552ee27438115ac0d2df9b6d
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-    width: 193
-    height: 274
+    width: 212
+    height: 250
     selected: false
     positionAbsolute:
       x: 1332.7232525730337
@@ -216,7 +218,7 @@ nodes:
       title: Data
       fileName: sec2-6_San Diego_unemp_peers_data.csv
       flowState: *ref_1
-    width: 193
+    width: 212
     height: 274
     selected: false
     dragging: false
@@ -254,7 +256,7 @@ nodes:
             git: >-
               https://api.github.com/repos/tne-ai/apps-maria-2/git/blobs/c29a3752fb21bb48520077b1b0201afde8152b1f
             html: https://github.com/tne-ai/apps-maria-2/blob/main/Experts/Section_2
-    width: 193
+    width: 212
     height: 226
     selected: false
     dragging: false
@@ -277,7 +279,7 @@ nodes:
       outputToCanvas: false
       useUserQuery: true
       flowState: *ref_2
-    width: 206
+    width: 212
     height: 490
     selected: false
     dragging: false

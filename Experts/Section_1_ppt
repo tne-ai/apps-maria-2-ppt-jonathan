@@ -119,11 +119,11 @@ nodes:
       toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: true
+      useUserQuery: false
       flowState: *ref_0
     width: 238
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 411.8722666513893
       'y': 876.2915932934513
@@ -136,7 +136,7 @@ nodes:
     data:
       id: Tc7XjRLwjEsgfV1wkbsF7
       title: Save File
-      outputName: sec1_json.txt
+      outputName: sec1_bullet.txt
     width: 238
     height: 190
     selected: false

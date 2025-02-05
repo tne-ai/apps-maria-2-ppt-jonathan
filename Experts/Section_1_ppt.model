@@ -1,0 +1,232 @@
+nodes:
+  - id: RNp-6CaiKz1xkLd8i4s8k
+    type: file
+    position:
+      x: 268.5
+      'y': 247.875
+    data:
+      id: RNp-6CaiKz1xkLd8i4s8k
+      title: Overall Prompt TXT
+      fileName: Economic Scan Overview.txt
+      flowState:
+        backend: git
+        repo: apps-maria-2-ppt-jonathan
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 268.5
+      'y': 247.875
+    dragging: false
+  - id: D4z3LhE1Jkzc1v4Ccaki_
+    type: file
+    position:
+      x: 594
+      'y': 246.875
+    data:
+      id: D4z3LhE1Jkzc1v4Ccaki_
+      title: Sec 1 Prompt TXT
+      fileName: Section 1 Gross Regional Product.txt
+      flowState: &ref_0
+        backend: git
+        repo: apps-maria-2-ppt-jonathan
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 594
+      'y': 246.875
+    dragging: false
+  - id: QADK5svDjo7lAZXdF_tQr
+    type: file
+    position:
+      x: 30
+      'y': 560.875
+    data:
+      id: QADK5svDjo7lAZXdF_tQr
+      title: Data
+      fileName: sec1-1_San Diego County_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 30
+      'y': 560.875
+    dragging: false
+  - id: WflGCxVflAcC40rXuikp1
+    type: file
+    position:
+      x: 276
+      'y': 558.875
+    data:
+      id: WflGCxVflAcC40rXuikp1
+      title: Data
+      fileName: sec1-2_San Diego County_per_capita_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 274
+    selected: false
+    positionAbsolute:
+      x: 276
+      'y': 558.875
+    dragging: false
+  - id: HxLC2O_hp77yKXn0d8O98
+    type: file
+    position:
+      x: 520.9117906023114
+      'y': 559.9473900834003
+    data:
+      id: HxLC2O_hp77yKXn0d8O98
+      title: Data
+      fileName: sec1-3_San Diego_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 250
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 520.9117906023114
+      'y': 559.9473900834003
+  - id: M3SK0775oIMTjH74Mgsv-
+    type: file
+    position:
+      x: 765.3334812954781
+      'y': 559.9335750742742
+    data:
+      id: M3SK0775oIMTjH74Mgsv-
+      title: Data
+      fileName: sec1-4_San Diego_per_capita_grp_data.csv
+      flowState: *ref_0
+    width: 238
+    height: 274
+    selected: false
+    positionAbsolute:
+      x: 765.3334812954781
+      'y': 559.9335750742742
+    dragging: false
+  - id: lse1TbjBioMf2JFH5oNZx
+    type: llm
+    position:
+      x: 411.8722666513893
+      'y': 876.2915932934513
+    data:
+      id: lse1TbjBioMf2JFH5oNZx
+      title: New Model
+      input: ''
+      slashgptManifest: Section_1.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: *ref_0
+    width: 238
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 411.8722666513893
+      'y': 876.2915932934513
+    dragging: false
+  - id: DCcCspkue6l4iLBMOZNhI
+    type: llm
+    position:
+      x: 729.8722666513893
+      'y': 878.2915932934513
+    data:
+      id: DCcCspkue6l4iLBMOZNhI
+      title: New Model
+      input: ''
+      slashgptManifest: ie_item_generator.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: true
+      useUserQuery: true
+      flowState: *ref_0
+    width: 238
+    height: 466
+    selected: true
+    positionAbsolute:
+      x: 729.8722666513893
+      'y': 878.2915932934513
+    dragging: false
+  - id: tViEotJMfV_qGRru9nHEx
+    type: out
+    position:
+      x: 411.8722666513893
+      'y': 1382.2915932934513
+    data:
+      id: tViEotJMfV_qGRru9nHEx
+      title: Save File
+      outputName: sec1_bullet.txt
+    width: 238
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 411.8722666513893
+      'y': 1382.2915932934513
+    dragging: false
+  - id: xVURY62BdKCTUsabPkD_R
+    type: out
+    position:
+      x: 729.8722666513893
+      'y': 1388.2915932934513
+    data:
+      id: xVURY62BdKCTUsabPkD_R
+      title: Save File
+      outputName: sec1_json.txt
+    width: 238
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 729.8722666513893
+      'y': 1388.2915932934513
+    dragging: false
+edges:
+  - source: DCcCspkue6l4iLBMOZNhI
+    sourceHandle: b
+    target: xVURY62BdKCTUsabPkD_R
+    targetHandle: t
+    id: BfrHmz
+  - source: lse1TbjBioMf2JFH5oNZx
+    sourceHandle: b
+    target: tViEotJMfV_qGRru9nHEx
+    targetHandle: t
+    id: 7v2q9T
+  - source: lse1TbjBioMf2JFH5oNZx
+    sourceHandle: r
+    target: DCcCspkue6l4iLBMOZNhI
+    targetHandle: l
+    id: 5GQqIg
+  - source: M3SK0775oIMTjH74Mgsv-
+    sourceHandle: b
+    target: lse1TbjBioMf2JFH5oNZx
+    targetHandle: t
+    id: hweVJH
+  - source: HxLC2O_hp77yKXn0d8O98
+    sourceHandle: b
+    target: lse1TbjBioMf2JFH5oNZx
+    targetHandle: t
+    id: KRf1xC
+  - source: WflGCxVflAcC40rXuikp1
+    sourceHandle: b
+    target: lse1TbjBioMf2JFH5oNZx
+    targetHandle: t
+    id: fUzebg
+  - source: QADK5svDjo7lAZXdF_tQr
+    sourceHandle: b
+    target: lse1TbjBioMf2JFH5oNZx
+    targetHandle: t
+    id: 15bTMO
+  - source: D4z3LhE1Jkzc1v4Ccaki_
+    sourceHandle: b
+    target: lse1TbjBioMf2JFH5oNZx
+    targetHandle: t
+    id: cGUMzd
+  - source: RNp-6CaiKz1xkLd8i4s8k
+    sourceHandle: b
+    target: lse1TbjBioMf2JFH5oNZx
+    targetHandle: t
+    id: rTvjtM
+description: null

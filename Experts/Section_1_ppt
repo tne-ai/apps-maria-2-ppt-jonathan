@@ -144,7 +144,79 @@ nodes:
       x: 410.1755495659022
       'y': 1380.9907294322434
     dragging: false
+  - id: 5OdAV0bVYYGZNgrE2KY6a
+    type: llm
+    position:
+      x: 706.2800749226482
+      'y': 878.2744864971262
+    data:
+      id: 5OdAV0bVYYGZNgrE2KY6a
+      title: New Model
+      input: ''
+      slashgptManifest: ie_item_generator.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: true
+      useUserQuery: true
+      flowState:
+        backend: git
+        repo: apps-maria-2-ppt-jonathan
+        content:
+          name: Section_1_ppt
+          path: Experts/Section_1_ppt
+          sha: 84f8e02a5bfcdde797e3a41c237c0b12791a1707
+          size: 4138
+          url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-ppt-jonathan/contents/Experts/Section_1_ppt?ref=main
+          html_url: >-
+            https://github.com/tne-ai/apps-maria-2-ppt-jonathan/blob/main/Experts/Section_1_ppt
+          git_url: >-
+            https://api.github.com/repos/tne-ai/apps-maria-2-ppt-jonathan/git/blobs/84f8e02a5bfcdde797e3a41c237c0b12791a1707
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/apps-maria-2-ppt-jonathan/main/Experts/Section_1_ppt
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-ppt-jonathan/contents/Experts/Section_1_ppt?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/apps-maria-2-ppt-jonathan/git/blobs/84f8e02a5bfcdde797e3a41c237c0b12791a1707
+            html: >-
+              https://github.com/tne-ai/apps-maria-2-ppt-jonathan/blob/main/Experts/Section_1_ppt
+    width: 238
+    height: 466
+    selected: true
+    positionAbsolute:
+      x: 706.2800749226482
+      'y': 878.2744864971262
+    dragging: false
+  - id: _gcMZ-b7eO-OVOgL6p3m6
+    type: out
+    position:
+      x: 698.2800749226482
+      'y': 1386.2744864971262
+    data:
+      id: _gcMZ-b7eO-OVOgL6p3m6
+      title: Save File
+      outputName: sec1_json.txt
+    width: 238
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 698.2800749226482
+      'y': 1386.2744864971262
+    dragging: false
 edges:
+  - source: 5OdAV0bVYYGZNgrE2KY6a
+    sourceHandle: b
+    target: _gcMZ-b7eO-OVOgL6p3m6
+    targetHandle: t
+    id: V2TrHH
+  - source: lse1TbjBioMf2JFH5oNZx
+    sourceHandle: r
+    target: 5OdAV0bVYYGZNgrE2KY6a
+    targetHandle: l
+    id: CsQGkc
   - source: lse1TbjBioMf2JFH5oNZx
     sourceHandle: b
     target: Tc7XjRLwjEsgfV1wkbsF7

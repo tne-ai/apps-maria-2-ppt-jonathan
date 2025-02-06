@@ -136,7 +136,7 @@ nodes:
     data:
       id: Tc7XjRLwjEsgfV1wkbsF7
       title: Save File
-      outputName: sec1_bullet.txt
+      outputName: sec1_bullets.txt
     width: 238
     height: 190
     selected: false
@@ -159,7 +159,7 @@ nodes:
       outputType: overwrite
       outputToCanvas: true
       useUserQuery: true
-      flowState:
+      flowState: &ref_1
         backend: git
         repo: apps-maria-2-ppt-jonathan
         content:
@@ -185,7 +185,7 @@ nodes:
               https://github.com/tne-ai/apps-maria-2-ppt-jonathan/blob/main/Experts/Section_1_ppt
     width: 238
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 706.2800749226482
       'y': 878.2744864971262
@@ -206,7 +206,29 @@ nodes:
       x: 698.2800749226482
       'y': 1386.2744864971262
     dragging: false
+  - id: 4wu1H5-2XAssonGRF9SGF
+    type: file
+    position:
+      x: 1035.280074922648
+      'y': 632.2744864971262
+    data:
+      id: 4wu1H5-2XAssonGRF9SGF
+      title: Data
+      fileName: ppt_formatter_template.txt
+      flowState: *ref_1
+    width: 238
+    height: 250
+    selected: false
+    positionAbsolute:
+      x: 1035.280074922648
+      'y': 632.2744864971262
+    dragging: false
 edges:
+  - source: 4wu1H5-2XAssonGRF9SGF
+    sourceHandle: b
+    target: 5OdAV0bVYYGZNgrE2KY6a
+    targetHandle: t
+    id: dVZh5I
   - source: 5OdAV0bVYYGZNgrE2KY6a
     sourceHandle: b
     target: _gcMZ-b7eO-OVOgL6p3m6
